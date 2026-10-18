@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "40df7f7a-7b10-4123-a6fc-a054cdbe2382",
+    "title": "[BK-258 QA] theca patruus vinum stillicidium",
+    "atc_id": null,
+    "module": {
+      "id": "369486b4-17f7-467c-a347-7d1d9d381f96",
+      "name": "BK258 Module 1792293303204-Jx2ZaF",
+      "path": "bk258-module-1792293303204-jx2zaf",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "369486b4-17f7-467c-a347-7d1d9d381f96",
+    "created_at": "2026-10-18T03:15:03.736025+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "d3707e20-bd07-4dca-b89b-75f0166546b5",
+    "updated_at": "2026-10-18T03:15:03.973113+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

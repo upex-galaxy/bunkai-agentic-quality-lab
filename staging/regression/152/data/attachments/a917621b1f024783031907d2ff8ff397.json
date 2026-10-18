@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "f67788e6-9880-4338-968a-40e98e2ee9c5",
+    "title": "[BK-258 QA] comis corporis vilis at",
+    "atc_id": null,
+    "module": {
+      "id": "90c5afb7-5b49-4cb1-b77b-08341912eb5c",
+      "name": "BK258 Module 1792293308212-r2V9rE",
+      "path": "bk258-module-1792293308212-r2v9re",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "90c5afb7-5b49-4cb1-b77b-08341912eb5c",
+    "created_at": "2026-10-18T03:15:08.684463+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "d3707e20-bd07-4dca-b89b-75f0166546b5",
+    "updated_at": "2026-10-18T03:15:08.930341+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

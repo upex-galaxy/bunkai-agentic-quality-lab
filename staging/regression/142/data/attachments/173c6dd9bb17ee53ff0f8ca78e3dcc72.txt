@@ -1,2 +1,0 @@
----- API NOK: 401 - https://staging-upexbunkai.vercel.app/api/v1/projects/de9233fb-c3ff-4770-8c72-9f12250bd8fa/traceability
-✅ [BK-335] expectUnauthenticatedRejection - PASS (206ms)
