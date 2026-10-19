@@ -1,8 +1,0 @@
-[API Setup] Starting API authentication...
-[API Setup] Target: https://staging-upexbunkai.vercel.app/api/v1/auth/signin
----- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/auth/signin
----- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/me
-✅ [BK-101] authenticateSuccessfully - PASS (2194ms)
-[API Setup] Authentication successful
-[API Setup] PAT scopes: atc:read, atc:write, run:execute
-[API Setup] Token saved to .auth/api-state.json
