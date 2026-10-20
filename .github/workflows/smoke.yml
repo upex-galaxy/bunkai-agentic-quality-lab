@@ -168,6 +168,9 @@ jobs:
     needs: SmokeTest
     runs-on: ubuntu-latest
     if: ${{ always() && github.event.inputs.generate_allure != 'false' }}
+    # The default GITHUB_TOKEN is read-only here; publishing pushes to gh-pages.
+    permissions:
+      contents: write
 
     steps:
       # Full repo checkout: the report is generated with the repo's own
