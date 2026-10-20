@@ -1,0 +1,13 @@
+{
+  "open_count": 9,
+  "by_severity": {
+    "P1": 2,
+    "P2": 4,
+    "P3": 2,
+    "P4": 1
+  },
+  "open_statuses": [
+    "open",
+    "in_progress"
+  ]
+}
