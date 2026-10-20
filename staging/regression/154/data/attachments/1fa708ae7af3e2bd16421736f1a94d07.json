@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e60a7e20-d91a-48b9-8d65-4b000b74d9c9",
+    "title": "[BK-258 QA] centum canis stabilis tempore",
+    "atc_id": null,
+    "module": {
+      "id": "7a9fd141-d205-4639-a6bb-bf0edb097e15",
+      "name": "BK258 Module 1792467489326-3L7tq8",
+      "path": "bk258-module-1792467489326-3l7tq8",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P4",
+    "module_id": "7a9fd141-d205-4639-a6bb-bf0edb097e15",
+    "created_at": "2026-10-20T03:38:11.700827+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "d35054be-b375-4a8a-860a-ba43677deab9",
+    "updated_at": "2026-10-20T03:38:11.700827+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

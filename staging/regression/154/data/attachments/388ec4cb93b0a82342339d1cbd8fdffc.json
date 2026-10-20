@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "223429c5-b02e-4b52-962a-96998aff0de8",
+    "title": "[BK-258 QA] apostolus arguo amitto audax",
+    "atc_id": null,
+    "module": {
+      "id": "c1ab080d-5b33-402c-8042-858021c5826c",
+      "name": "BK258 Module 1792467483259-0CtmmT",
+      "path": "bk258-module-1792467483259-0ctmmt",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "c1ab080d-5b33-402c-8042-858021c5826c",
+    "created_at": "2026-10-20T03:38:03.919293+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ec76978f-0681-4df4-a9ce-15df5aee6d8c",
+    "updated_at": "2026-10-20T03:38:04.292668+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
