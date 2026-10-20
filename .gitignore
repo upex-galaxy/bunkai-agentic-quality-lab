@@ -40,11 +40,6 @@ node_modules/
 .env
 .env.local
 .env.*.local
-.envrc.local
-.direnv/
-# Force-track .envrc (overrides global ~/.gitignore_global, which often
-# blanket-ignores it). Our .envrc has no secrets — it only sources .env.
-!.envrc
 
 # ===== IDE & Editor =====
 .idea/
