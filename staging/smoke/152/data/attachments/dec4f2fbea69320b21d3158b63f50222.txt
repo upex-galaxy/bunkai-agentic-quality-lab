@@ -1,0 +1,1 @@
+✅ [BK-610] rejectsShortNameAndPreservesInput - PASS (1109ms)
