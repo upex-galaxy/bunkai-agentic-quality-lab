@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "b3a4f768-4ca4-43aa-be7e-4cc1b0e1dde5",
+    "title": "[BK-258 QA] molestiae ab acies totus",
+    "atc_id": null,
+    "module": {
+      "id": "f845de66-442c-4304-9b96-022a594051b5",
+      "name": "BK258 Module 1792553470832-Gbt4y5",
+      "path": "bk258-module-1792553470832-gbt4y5",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "f845de66-442c-4304-9b96-022a594051b5",
+    "created_at": "2026-10-21T03:31:11.791557+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "57e80d8b-3645-4790-8fe7-d12505efa34b",
+    "updated_at": "2026-10-21T03:31:11.791557+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

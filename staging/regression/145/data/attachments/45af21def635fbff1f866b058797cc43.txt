@@ -1,1 +1,0 @@
-✅ [BK-611] acceptsThreeCharacterBoundaryName - PASS (983ms)
