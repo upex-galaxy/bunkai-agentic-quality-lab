@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "b8331d46-7395-4de2-81a5-365dbec1bb35",
+    "title": "[BK-258 QA] calculus tantum condico adstringo",
+    "atc_id": null,
+    "module": {
+      "id": "10356bed-14fe-410b-9aed-ab0ccde0496e",
+      "name": "BK258 Module 1792652042444-ru4BRM",
+      "path": "bk258-module-1792652042444-ru4brm",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "10356bed-14fe-410b-9aed-ab0ccde0496e",
+    "created_at": "2026-10-22T06:54:02.8+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "b3752ff1-254c-4ae4-ac55-8b1b4707b321",
+    "updated_at": "2026-10-22T06:54:02.8+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
