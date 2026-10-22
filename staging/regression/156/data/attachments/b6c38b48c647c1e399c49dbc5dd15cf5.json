@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "52accf19-6f70-4be2-8ffe-1964d32e0280",
+    "title": "[BK-258 QA] debeo autus alveus curso",
+    "atc_id": null,
+    "module": {
+      "id": "12b7afd4-4038-44c5-9f96-a6ec32ab987d",
+      "name": "BK258 Module 1792639836561-qFIXNB",
+      "path": "bk258-module-1792639836561-qfixnb",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "12b7afd4-4038-44c5-9f96-a6ec32ab987d",
+    "created_at": "2026-10-22T03:30:37.285844+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "3ac06be2-a87b-496d-9177-13d5121aeb02",
+    "updated_at": "2026-10-22T03:30:37.285844+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

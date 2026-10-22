@@ -1,5 +1,0 @@
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/136c341b-689e-4d48-94c4-ad75594b847c/projects
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/136c341b-689e-4d48-94c4-ad75594b847c/projects
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/136c341b-689e-4d48-94c4-ad75594b847c/projects
-✅ [BK-604] listProjectsOldestFirstWithNameAndSlug - PASS (133ms)
