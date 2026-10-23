@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "96d83bb0-c26f-4a69-92c8-153e2233f434",
+    "title": "[BK-258 QA] volo odio provident apparatus",
+    "atc_id": null,
+    "module": {
+      "id": "7c6263c8-8da8-41fc-9b6d-e38d33fb8e40",
+      "name": "BK258 Module 1792726858427-UzD2DZ",
+      "path": "bk258-module-1792726858427-uzd2dz",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "closed",
+    "severity": "P3",
+    "module_id": "7c6263c8-8da8-41fc-9b6d-e38d33fb8e40",
+    "created_at": "2026-10-23T03:40:59.074226+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "256866b2-c460-4b1f-a680-d460d6131024",
+    "updated_at": "2026-10-23T03:41:00.032026+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

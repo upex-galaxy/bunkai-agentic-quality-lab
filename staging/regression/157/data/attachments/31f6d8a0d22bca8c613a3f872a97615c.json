@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "553690a3-1924-4e79-a974-efcabc60db22",
+    "title": "[BK-258 QA] tersus solum caput non",
+    "atc_id": null,
+    "module": {
+      "id": "3bf7edb9-8e55-4f21-8837-c0dab7a8f93d",
+      "name": "BK258 Module 1792726849051-wV5VoA",
+      "path": "bk258-module-1792726849051-wv5voa",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "3bf7edb9-8e55-4f21-8837-c0dab7a8f93d",
+    "created_at": "2026-10-23T03:40:49.664099+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "256866b2-c460-4b1f-a680-d460d6131024",
+    "updated_at": "2026-10-23T03:40:49.984605+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
