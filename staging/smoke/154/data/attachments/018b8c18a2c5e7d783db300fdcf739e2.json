@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e57c00ec-9bf4-417c-b622-d5a3ae897df6",
+    "title": "[BK-258 QA] comprehendo deficio deficio depraedor",
+    "atc_id": null,
+    "module": {
+      "id": "c82e054a-cb1c-4daf-97de-ab1a8e33f33f",
+      "name": "BK258 Module 1792738653183-3smkYQ",
+      "path": "bk258-module-1792738653183-3smkyq",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "closed",
+    "severity": "P3",
+    "module_id": "c82e054a-cb1c-4daf-97de-ab1a8e33f33f",
+    "created_at": "2026-10-23T06:57:33.817487+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "da1f97ea-a624-402a-b3e4-6a75f87e1e11",
+    "updated_at": "2026-10-23T06:57:34.729396+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

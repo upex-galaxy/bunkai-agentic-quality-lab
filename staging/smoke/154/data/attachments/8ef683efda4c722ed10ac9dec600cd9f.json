@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e1800895-db97-4a02-8aa0-3493fda0f87d",
+    "title": "[BK-258 QA] cultura denuo varius trucido",
+    "atc_id": null,
+    "module": {
+      "id": "70af7cae-6316-4bba-bc27-d2600786e8bb",
+      "name": "BK258 Module 1792738658998-ZONJlV",
+      "path": "bk258-module-1792738658998-zonjlv",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "70af7cae-6316-4bba-bc27-d2600786e8bb",
+    "created_at": "2026-10-23T06:57:40.244076+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "471ddcd8-0e8d-416b-b393-1a2fbb0dbd0f",
+    "updated_at": "2026-10-23T06:57:40.244076+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

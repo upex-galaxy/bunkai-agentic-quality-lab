@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "cafd9198-0cb9-4177-ae26-20ac406c264a",
+    "title": "[BK-258 QA] audeo agnosco auxilium cogito",
+    "atc_id": null,
+    "module": {
+      "id": "74d7817f-4218-4dce-ac58-6c0b9c048d35",
+      "name": "BK258 Module 1792738644483-itdaE8",
+      "path": "bk258-module-1792738644483-itdae8",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "74d7817f-4218-4dce-ac58-6c0b9c048d35",
+    "created_at": "2026-10-23T06:57:25.073599+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "da1f97ea-a624-402a-b3e4-6a75f87e1e11",
+    "updated_at": "2026-10-23T06:57:25.356986+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

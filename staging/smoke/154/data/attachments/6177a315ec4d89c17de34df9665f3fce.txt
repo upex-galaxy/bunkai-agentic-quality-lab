@@ -1,0 +1,3 @@
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/d3891054-e7ff-4c71-a83b-3a78d2d248ba/projects
+✅ [BK-605] listSingleProjectAtLowerBoundary - PASS (43ms)
