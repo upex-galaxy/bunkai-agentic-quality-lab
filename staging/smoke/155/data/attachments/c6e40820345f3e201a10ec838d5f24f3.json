@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "eedde890-447a-4b3c-a8aa-943ec2ed95f9",
+    "title": "[BK-258 QA] aro eveniet repellat tepidus",
+    "atc_id": null,
+    "module": {
+      "id": "bc194582-f7a6-4a74-9442-bf801373c102",
+      "name": "BK258 Module 1792824195704-8wmXFt",
+      "path": "bk258-module-1792824195704-8wmxft",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "bc194582-f7a6-4a74-9442-bf801373c102",
+    "created_at": "2026-10-24T06:43:16.11166+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ea5ef554-4de2-4d05-82ac-a157b13a4065",
+    "updated_at": "2026-10-24T06:43:16.328414+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

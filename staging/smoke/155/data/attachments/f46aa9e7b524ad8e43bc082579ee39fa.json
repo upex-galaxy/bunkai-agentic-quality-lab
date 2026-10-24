@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "755ff7bb-2ef3-41cb-80ba-acbf510159f3",
+    "title": "[BK-258 QA] deprimo cur incidunt eum",
+    "atc_id": null,
+    "module": {
+      "id": "069b0ee6-ada6-4e8e-a49f-568b7cfec4fe",
+      "name": "BK258 Module 1792824191958-8IwO4t",
+      "path": "bk258-module-1792824191958-8iwo4t",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "069b0ee6-ada6-4e8e-a49f-568b7cfec4fe",
+    "created_at": "2026-10-24T06:43:12.362489+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ea5ef554-4de2-4d05-82ac-a157b13a4065",
+    "updated_at": "2026-10-24T06:43:12.362489+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

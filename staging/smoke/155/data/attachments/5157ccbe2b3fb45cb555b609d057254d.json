@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e18a9b68-8217-4391-9307-44079693f80d",
+    "title": "[BK-258 QA] cumque accusantium volva aperio",
+    "atc_id": null,
+    "module": {
+      "id": "4829ca1e-bb4e-4d90-a1aa-25112fdefa40",
+      "name": "BK258 Module 1792824184821-mbDb1q",
+      "path": "bk258-module-1792824184821-mbdb1q",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "4829ca1e-bb4e-4d90-a1aa-25112fdefa40",
+    "created_at": "2026-10-24T06:43:05.247923+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ea5ef554-4de2-4d05-82ac-a157b13a4065",
+    "updated_at": "2026-10-24T06:43:05.247923+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
