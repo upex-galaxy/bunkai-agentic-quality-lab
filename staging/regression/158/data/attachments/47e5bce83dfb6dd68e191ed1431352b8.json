@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "f91b615f-be8e-4a53-9159-32c8b3f75734",
+    "title": "[BK-258 QA] clamo vero aurum expedita",
+    "atc_id": null,
+    "module": {
+      "id": "a6771ea5-c7f7-404f-905a-b0982d932259",
+      "name": "BK258 Module 1792812570913-ZhdkOA",
+      "path": "bk258-module-1792812570913-zhdkoa",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "a6771ea5-c7f7-404f-905a-b0982d932259",
+    "created_at": "2026-10-24T03:29:31.491939+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "da7f7948-7f93-4bd3-b622-fff8ac40b722",
+    "updated_at": "2026-10-24T03:29:32.113169+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

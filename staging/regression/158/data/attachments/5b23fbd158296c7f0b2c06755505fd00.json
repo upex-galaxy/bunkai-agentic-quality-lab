@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "99a5605e-f90c-470c-bf29-8ad402af865a",
+    "title": "[BK-258 QA] truculenter deprimo curriculum adimpleo",
+    "atc_id": null,
+    "module": {
+      "id": "6713f90a-7590-49f3-8359-756dc86450e5",
+      "name": "BK258 Module 1792812561783-dK0Bqe",
+      "path": "bk258-module-1792812561783-dk0bqe",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "6713f90a-7590-49f3-8359-756dc86450e5",
+    "created_at": "2026-10-24T03:29:22.387788+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "da7f7948-7f93-4bd3-b622-fff8ac40b722",
+    "updated_at": "2026-10-24T03:29:22.710575+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
