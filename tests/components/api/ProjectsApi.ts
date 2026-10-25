@@ -55,6 +55,7 @@ export class ProjectsApi extends ApiBase {
     const [response, body] = await this.apiPOST<CreateWorkspaceResponse, CreateWorkspacePayload>(
       '/v1/workspaces',
       { name: `BK-266 QA ${slug}`, slug },
+      { headers: { 'Idempotency-Key': randomUUID() } },
     );
     expect(response.status()).toBe(201);
     return [response, body];
@@ -75,6 +76,7 @@ export class ProjectsApi extends ApiBase {
     const [response, body] = await this.apiPOST<CreateProjectResponse, CreateProjectPayload>(
       `/v1/workspaces/${workspaceId}/projects`,
       payload,
+      { headers: { 'Idempotency-Key': randomUUID() } },
     );
     expect(response.status()).toBe(201);
     return [response, body];

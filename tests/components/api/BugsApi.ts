@@ -6,13 +6,16 @@
  * their own (same precedent as `ProjectsApi.createProjectSuccessfully`).
  *
  * Endpoints:
- * - POST /api/v1/bugs              - standalone create (always starts `open`)
+ * - POST /api/v1/bugs              - standalone create (always starts `open`;
+ *                                    Idempotency-Key header required)
  * - POST /api/v1/bugs/{id}/status  - one lifecycle stage forward per call
  */
 
 import type { APIResponse } from '@playwright/test';
 import type { BugDetail, BugStandaloneCreateBody, CreateBugResponse } from '@schemas/bug.types';
 import type { TestContextOptions } from '@TestContext';
+
+import { randomUUID } from 'node:crypto';
 
 import { ApiBase } from '@api/ApiBase';
 import { expect } from '@playwright/test';
@@ -45,6 +48,7 @@ export class BugsApi extends ApiBase {
     const [response, body] = await this.apiPOST<CreateBugResponse, BugStandaloneCreateBody>(
       '/v1/bugs',
       payload,
+      { headers: { 'Idempotency-Key': randomUUID() } },
     );
     expect(response.status()).toBe(201);
     expect(body.bug.status).toBe('open');
