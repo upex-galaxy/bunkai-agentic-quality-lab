@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-12T20:12:34.411Z",
+  "generatedAt": "2026-10-25T21:33:33.208Z",
   "components": {
     "api": [
       {
@@ -78,6 +78,11 @@
             "id": "BK-1094",
             "method": "showsCountedBugTotalAndMinorChip",
             "line": 122
+          },
+          {
+            "id": "BK-1095",
+            "method": "showsOpenBugCountsExcludingArchivedModule",
+            "line": 169
           },
           {
             "id": "BK-1096",
@@ -278,7 +283,7 @@
   "steps": [],
   "summary": {
     "totalComponents": 12,
-    "totalATCs": 38,
+    "totalATCs": 39,
     "apiComponents": 7,
     "uiComponents": 5,
     "stepsModules": 0
