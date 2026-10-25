@@ -15,6 +15,13 @@
  * are dropped, because an empty variable would win over the vault and CI turns
  * every unset secret into one (`withoutEmptyProviderShadows`).
  *
+ * A retired key (`RETIRED_KEYS`: nothing in the repo reads it) that `.env` or
+ * `.env.local` still assigns would make varlock fail on its leftover `@required`
+ * decorator, taking every test run down with it. The child gets a constant
+ * placeholder for each one (`neutralizeRetiredKeys`, the same remedy
+ * `setup:doctor` applies) and one line names them, so the dead line is deleted
+ * rather than forgotten. The placeholder never reaches a real credential.
+ *
  *   1. DRIFT NOTICE. varlock lets an inherited process variable win over `.env`
  *      (no flag inverts it), so a stale value from the parent shell would make a
  *      corrected `.env` a no-op. `cli/lib/env-drift.ts` asks varlock which
@@ -42,6 +49,7 @@ import { spawnSync } from 'node:child_process';
 import { basename, join } from 'node:path';
 
 import { fileValues, findDrift, hasEnvFiles, loadVarlockMetadata, varlockBin, withoutEmptyProviderShadows } from '../cli/lib/env-drift.ts';
+import { neutralizeRetiredKeys, RETIRED_KEYS } from '../cli/lib/env-schema.ts';
 
 const REPO_ROOT = join(import.meta.dir, '..');
 
@@ -57,6 +65,15 @@ export function driftMessage(bin: string, hits: DriftHit[]): string[] {
     `Fine when you set it on purpose for this run. If not: unset ${names} (or open a clean terminal).`,
     'Find who exported it: ps eww -p $PPID, walking up the ancestry.',
   ];
+}
+
+/**
+ * The retired keys `.env` / `.env.local` still assign, in `RETIRED_KEYS` order.
+ * Names only: no value is read, kept or printed.
+ */
+export function retiredKeysInFiles(root: string): string[] {
+  const assigned = fileValues(root);
+  return RETIRED_KEYS.filter(key => assigned.has(key.name)).map(key => key.name);
 }
 
 export interface LaunchDeps {
@@ -89,8 +106,9 @@ export function launch(argv: string[], deps: LaunchDeps): number {
   }
 
   const { env } = withoutEmptyProviderShadows(deps.root, deps.env);
+  const hasFiles = hasEnvFiles(deps.root);
 
-  if (hasEnvFiles(deps.root)) {
+  if (hasFiles) {
     // No usable metadata (a schema that does not parse) skips the comparison:
     // `varlock run` below reports that failure itself.
     const meta = deps.meta(deps.root, env);
@@ -100,7 +118,12 @@ export function launch(argv: string[], deps: LaunchDeps): number {
     }
   }
 
-  return deps.spawn(varlock, ['run', '--', bin, ...args], env);
+  const retired = hasFiles ? retiredKeysInFiles(deps.root) : [];
+  if (retired.length > 0) {
+    deps.err(`launch: ${retired.join(', ')} retired (nothing in the repo reads it); the leftover .env line is neutralized for this run. Delete it to silence this line.`);
+  }
+
+  return deps.spawn(varlock, ['run', '--', bin, ...args], retired.length > 0 ? neutralizeRetiredKeys(env, retired) : env);
 }
 
 if (import.meta.main) {
