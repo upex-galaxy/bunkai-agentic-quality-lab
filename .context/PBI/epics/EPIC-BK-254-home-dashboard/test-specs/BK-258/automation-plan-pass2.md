@@ -218,3 +218,5 @@ BVA (count = 0) is the point of this TC: stated explicitly. Count = 1 stays in B
 | TC7 | BK-1099 | Candidate; first TC that needs two workspaces, revisit `WorkspacesApi` then |
 | BK-1096 rows 2 and 3 | | Manual (Stage 2 evidence), see section 0 |
 | TC5, TC6, TC10-TC13 | BK-1097, BK-1098, BK-1102..BK-1105 | Deferred in pass 1 |
+
+> Superseded: the BK-1102 deferral in this section is lifted at the requester's direction; the canonical plan is `atc/BK-1102.md` plus the `## Regression pass (BK-1102)` section of `spec.md`.

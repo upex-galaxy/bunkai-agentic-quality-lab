@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T23:12:22.366Z",
+  "generatedAt": "2026-10-25T23:16:53.286Z",
   "components": {
     "api": [
       {
@@ -29,6 +29,11 @@
             "id": "BK-1101",
             "method": "expectAccessDecision",
             "line": 101
+          },
+          {
+            "id": "BK-1102",
+            "method": "expectBadRequestForMalformedWorkspaceId",
+            "line": 154
           }
         ]
       },
@@ -283,7 +288,7 @@
   "steps": [],
   "summary": {
     "totalComponents": 12,
-    "totalATCs": 39,
+    "totalATCs": 40,
     "apiComponents": 7,
     "uiComponents": 5,
     "stepsModules": 0

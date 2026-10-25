@@ -90,3 +90,25 @@ None. Observation for Stage 4 owners: TC8 rows "bearer token" and "PAT atc:read"
 ## Second pass (BK-1094, BK-1096)
 
 Planned in `automation-plan-pass2.md` with ATC specs `atc/BK-1094.md` and `atc/BK-1096.md`. Each TC passed a "worth automating?" gate first: BK-1094 AUTOMATE (4 rows, one ATC); BK-1096 SPLIT (zero-state render against the existing fixture workspace, conditional on spikes W1 and W2; rows "only resolved/closed" and "open in archived module" stay manual). BK-1095 and BK-1099 remain deferred.
+
+## Regression pass (BK-1102)
+
+Additive after the second pass. The header, field table and first-pass prose above describe the original scope and are not rewritten. BK-1102 was recorded as deferred in `automation-plan.md` section 9 and `automation-plan-pass2.md` section 10; this pass lifts that deferral at the requester's direction. Both earlier plans carry a one-line superseded note pointing here; neither was rewritten.
+
+| TMS ID | Title | Type | Priority |
+|--------|-------|------|----------|
+| BK-1102 | TC10: should return 400 bad_request when the workspace id is not a UUID | Negative | P2 |
+
+**Order**: standalone, one step. Add `OpenBugsApi.expectBadRequestForMalformedWorkspaceId` (ATC `BK-1102`) and `tests/integration/home/rejectMalformedWorkspaceId.test.ts`.
+
+**Shared fixtures**: none new. Reuses `OpenBugsApi` (already registered as `openBugs`, token propagation already wired) and the `{ api }` fixture.
+
+**Data rows**: four, one `test()` per row with a fresh `api` context: `not-a-uuid` (plain word), `1234567890` (ungrouped numeric string), and the valid UUID `3f2504e0-4f89-11d3-9a0c-0305e82c3301` at lengths 35 and 37. No workspace discovery, no seeding, no cleanup.
+
+**Blocked by**: nothing. No spike, no seed data, no DB access.
+
+**Precondition for the scope**: the default PAT held by the `{ api }` fixture must satisfy `atc:read`, because `withApiHandler` authenticates before the handler validates the id; a missing or under-scoped credential would answer 401/403 instead of 400.
+
+**Acceptance criteria**: BK-1102 green on staging with zero retries; `types:check`, `lint:check` and `kata:manifest:check` clean; `kata-manifest.json` regenerated after the code lands.
+
+**ATC spec**: `atc/BK-1102.md`.
