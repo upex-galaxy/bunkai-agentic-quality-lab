@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T21:33:33.208Z",
+  "generatedAt": "2026-10-25T23:12:22.366Z",
   "components": {
     "api": [
       {
@@ -174,17 +174,17 @@
           {
             "id": "BK-331",
             "method": "exportSnapshot",
-            "line": 276
+            "line": 281
           },
           {
             "id": "BK-334",
             "method": "expectAnonymousRedirectToLogin",
-            "line": 301
+            "line": 309
           },
           {
             "id": "BK-336",
             "method": "expectNoShareAffordance",
-            "line": 906
+            "line": 914
           },
           {
             "id": "BK-445",
@@ -194,32 +194,32 @@
           {
             "id": "BK-446",
             "method": "expectZeroAcAuthoringGap",
-            "line": 564
+            "line": 572
           },
           {
             "id": "BK-448",
             "method": "expectNonDisclosureNotFound",
-            "line": 372
+            "line": 380
           },
           {
             "id": "BK-449",
             "method": "expectArchivedAcExcluded",
-            "line": 451
+            "line": 459
           },
           {
             "id": "BK-450",
             "method": "expectGhostAtcExcluded",
-            "line": 493
+            "line": 501
           },
           {
             "id": "BK-451",
             "method": "expectArchivedStoryRendersReadOnly",
-            "line": 534
+            "line": 542
           },
           {
             "id": "BK-452",
             "method": "expectDraftStoryHasNoLifecycleGate",
-            "line": 412
+            "line": 420
           },
           {
             "id": "BK-453",
@@ -229,7 +229,7 @@
           {
             "id": "BK-455",
             "method": "expectAtcRepeatsUnderEachBoundAc",
-            "line": 686
+            "line": 694
           },
           {
             "id": "BK-456",
@@ -239,42 +239,42 @@
           {
             "id": "BK-457",
             "method": "expectRunStatusPillMatchesTerminalStatus",
-            "line": 717
+            "line": 725
           },
           {
             "id": "BK-458",
             "method": "expectInFlightRunNotMisleading",
-            "line": 748
+            "line": 756
           },
           {
             "id": "BK-459",
             "method": "expectDefectsOrderedNewestFirst",
-            "line": 785
+            "line": 793
           },
           {
             "id": "BK-460",
             "method": "expectSharedRunHidesForeignDefect",
-            "line": 821
+            "line": 829
           },
           {
             "id": "BK-461",
             "method": "expectLayerGapCopy",
-            "line": 870
+            "line": 878
           },
           {
             "id": "BK-462",
             "method": "expectUncoveredStripForZeroAtcAc",
-            "line": 616
+            "line": 624
           },
           {
             "id": "BK-463",
             "method": "expectMixedCoverageRendersSideBySide",
-            "line": 650
+            "line": 658
           },
           {
             "id": "BK-464",
             "method": "expectZeroCoverageBannerRenders",
-            "line": 589
+            "line": 597
           }
         ]
       }
