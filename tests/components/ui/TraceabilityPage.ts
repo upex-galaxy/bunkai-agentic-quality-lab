@@ -270,14 +270,22 @@ export class TraceabilityPage extends UiBase {
    * rather than clicking then polling for a file — the latter is the flaky
    * pattern under this repo's `retries: 0` policy.
    *
+   * Waits for exactly one export button before clicking: right after a
+   * navigation the chain view can briefly render twice, and the strict-mode
+   * click then fails on two matches (smoke run 40171624691, 2026-10-25). A
+   * duplicate that never settles still fails here, as a real defect.
+   *
    * @param saveTo - filesystem path to save the downloaded document to
    * @returns the path the snapshot was saved to
    */
   @atc('BK-331')
   async exportSnapshot(saveTo: string): Promise<string> {
+    const exportButton = this.page.locator('[data-testid="traceability-export-button"]');
+    await expect(exportButton).toHaveCount(1);
+
     const [download] = await Promise.all([
       this.page.waitForEvent('download'),
-      this.page.locator('[data-testid="traceability-export-button"]').click(),
+      exportButton.click(),
     ]);
 
     expect(download.suggestedFilename()).toMatch(/^trace-.+-\d{8}-\d{6}\.html$/);
