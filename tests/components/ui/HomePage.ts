@@ -149,6 +149,39 @@ export class HomePage extends UiBase {
     await expect(card.getByTestId('home-open-bugs-severities')).toHaveCount(0);
   }
 
+  /**
+   * ATC: The Home "Open bugs" card shows the expected total and the P1/P2 chips
+   * after the test archived the module that held the P1 bugs. Starts on /home
+   * (navigation is the separate `open()` helper); the archive is orchestrated by
+   * the test through `ProjectsApi.archiveModuleSuccessfully`.
+   *
+   * Fixed assertions:
+   *  - skeleton placeholder gone (private waitForCardSettled) BEFORE any read
+   *  - total text equals expected.total
+   *  - P1 chip visible and its text matches /^P1\s*Critical\s*{expected.P1}$/
+   *  - P2 chip visible and its text matches /^P2\s*Major\s*{expected.P2}$/
+   * Scenario assertions: values from `expected` (computed by the test from the
+   * API read taken before the archive: -2 total, -2 P1, P2 unchanged).
+   *
+   * Locators are scoped to the "Open bugs" region: BK-1096 found that on CI the
+   * unscoped count test id resolved to a second element outside the card.
+   */
+  @atc('BK-1095')
+  async showsOpenBugCountsExcludingArchivedModule(expected: { total: number, P1: number, P2: number }): Promise<void> {
+    await this.waitForCardSettled();
+
+    const card = this.page.getByRole('region', { name: 'Open bugs' });
+    await expect(card.getByTestId('home-open-bugs-count')).toHaveText(String(expected.total));
+
+    const p1Chip = card.getByTestId('home-open-bugs-severity-P1');
+    await expect(p1Chip).toBeVisible();
+    await expect(p1Chip).toHaveText(new RegExp(`^P1\\s*${SEVERITY_LABELS.P1}\\s*${expected.P1}$`));
+
+    const p2Chip = card.getByTestId('home-open-bugs-severity-P2');
+    await expect(p2Chip).toBeVisible();
+    await expect(p2Chip).toHaveText(new RegExp(`^P2\\s*${SEVERITY_LABELS.P2}\\s*${expected.P2}$`));
+  }
+
   // ============================================
   // Private helpers
   // ============================================
