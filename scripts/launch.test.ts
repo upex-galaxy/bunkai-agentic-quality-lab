@@ -14,6 +14,8 @@
  *   6. With a secret-manager overlay, an EMPTY inherited copy of a key it
  *      resolves is dropped before varlock sees it (CI's unset secrets); every
  *      other variable reaches the child untouched.
+ *   7. A retired key `.env` still assigns is neutralized in the child
+ *      environment, so its leftover `@required` decorator cannot fail the run.
  */
 
 import type { LaunchDeps } from './launch.ts';
@@ -117,6 +119,24 @@ describe('drift notice', () => {
   test('defers to varlock run when the load fails', () => {
     expect(launch(['playwright', 'test'], deps({ meta: () => null }))).toBe(0);
     expect(spawned).toHaveLength(1);
+  });
+});
+
+describe('retired keys', () => {
+  test('neutralizes a retired key the files still assign, and names it once', () => {
+    writeFileSync(join(root, '.env'), `TOKEN=${FRESH}\nPOSTMAN_API_KEY=\n`);
+    expect(launch(['playwright', 'test'], deps({ env: { TOKEN: FRESH } }))).toBe(0);
+    expect(spawnedEnv[0]).toEqual({ TOKEN: FRESH, POSTMAN_API_KEY: 'retired' });
+    const all = printed.join('\n');
+    expect(all).toContain('POSTMAN_API_KEY retired');
+    expect(all).not.toContain('WARNING');
+    expect(all).not.toContain(FRESH);
+  });
+
+  test('leaves every other variable alone', () => {
+    expect(launch(['playwright', 'test'], deps({ env: { TOKEN: FRESH } }))).toBe(0);
+    expect(spawnedEnv[0]).toEqual({ TOKEN: FRESH });
+    expect(printed).toEqual([]);
   });
 });
 

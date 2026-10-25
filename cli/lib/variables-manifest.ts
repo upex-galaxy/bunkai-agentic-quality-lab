@@ -256,6 +256,11 @@ export const VAR_MANIFEST: VarSpec[] = [
     critical: false,
     obtainHint: 'test-user creds for your project-under-test; set when adapting the framework to your project.',
     note: 'Local test user password (project-under-test example: rename or delete when adapting). Read by config.testUser, which fails by name when empty. CI secret in the suite workflows.',
+    // A password is always a string. Without this, varlock infers the type from
+    // the value and an all-digit password becomes a `number`, which it then
+    // refuses to mark sensitive (it cannot redact a non-string) and the whole
+    // env fails validation for every command that loads it.
+    schema: { type: 'string' },
   },
   {
     name: 'STAGING_USER_EMAIL',
@@ -279,6 +284,9 @@ export const VAR_MANIFEST: VarSpec[] = [
     critical: false,
     obtainHint: 'test-user creds for your project-under-test; set when adapting the framework to your project.',
     note: 'Staging test user password (project-under-test example: rename or delete when adapting). Read by config.testUser, which fails by name when empty. CI secret in the suite workflows.',
+    // Same reason as LOCAL_USER_PASSWORD: a password is a string, and an
+    // all-digit one must not be inferred as a number.
+    schema: { type: 'string' },
   },
 
   // --- Xray (TMS, optional) ---
