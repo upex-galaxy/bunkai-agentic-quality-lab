@@ -217,3 +217,5 @@ Teardown: `finally { archiveModuleSuccessfully(moduleId) }` plus baseline re-rea
 | TC4 | BK-1096 | `getOpenBugs` (all-zero oracle), `HomePage` | Empty-state ATC (`home-open-bugs-count` = 0, `home-open-bugs-empty` text, `home-open-bugs-severities` absent). Needs a **fixture workspace**: Discover-or-Generate through `GET /v1/workspaces` / `POST /v1/workspaces` (constant name, e.g. "BK-258 QA Fixture"), activated for the browser session with `POST /v1/me/active-workspace` (cookie only; PATs cannot switch workspace). 3 data rows (no bugs, only resolved/closed, only archived-module) |
 | TC3, TC7 | BK-1095, BK-1099 | Same scaffolding | Archive-exclusion (extra DELETE module step) and active-workspace isolation (second workspace). Also second pass |
 | Not automated | BK-1097, BK-1098, BK-1102, BK-1103, BK-1104, BK-1105 | n/a | Deferred verdicts from Stage 4 (terminal for automation) |
+
+> Superseded: the BK-1102 deferral in this section is lifted at the requester's direction; the canonical plan is `atc/BK-1102.md` plus the `## Regression pass (BK-1102)` section of `spec.md`.

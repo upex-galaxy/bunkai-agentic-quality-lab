@@ -128,6 +128,44 @@ export class OpenBugsApi extends ApiBase {
 
     return [response, body];
   }
+
+  /**
+   * ATC: The open-bugs read rejects a workspace id that fails the route's UUID
+   * regex with 400 `bad_request`, and the refusal carries only the error
+   * envelope.
+   *
+   * Fixed assertions:
+   * - response status is 400
+   * - top-level body keys are exactly ['error'] (non-disclosure: neither
+   *   open_count nor by_severity may leak, and any added top-level key fails)
+   * - body.error.code is 'bad_request'
+   * - body.error.message matches /workspace id must be a uuid/i
+   *
+   * The credential is not a parameter: it is whatever the `api` fixture set on
+   * the component (the default login PAT), because the handler authenticates
+   * before it validates the id.
+   *
+   * Assertion order matters: the key-set check runs before the property reads,
+   * so a non-JSON or empty body fails as a clean assertion instead of a
+   * TypeError on `body.error`.
+   *
+   * @param malformedWorkspaceId - a path id that fails the route UUID regex
+   */
+  @atc('BK-1102')
+  async expectBadRequestForMalformedWorkspaceId(
+    malformedWorkspaceId: string,
+  ): Promise<[APIResponse, ErrorEnvelope]> {
+    const [response, body] = await this.apiGET<ErrorEnvelope>(
+      `/v1/workspaces/${malformedWorkspaceId}/open-bugs`,
+    );
+
+    expect(response.status()).toBe(400);
+    expect(Object.keys(body)).toEqual(['error']);
+    expect(body.error.code).toBe('bad_request');
+    expect(body.error.message).toMatch(/workspace id must be a uuid/i);
+
+    return [response, body];
+  }
 }
 
 // ============================================
