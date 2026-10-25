@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T23:12:22.366Z",
+  "generatedAt": "2026-10-25T23:22:59.693Z",
   "components": {
     "api": [
       {
@@ -88,6 +88,11 @@
             "id": "BK-1096",
             "method": "showsZeroStateWithoutSeverityChips",
             "line": 142
+          },
+          {
+            "id": "BK-1099",
+            "method": "showsOnlyActiveWorkspaceOpenBugs",
+            "line": 202
           }
         ]
       },
@@ -283,7 +288,7 @@
   "steps": [],
   "summary": {
     "totalComponents": 12,
-    "totalATCs": 39,
+    "totalATCs": 40,
     "apiComponents": 7,
     "uiComponents": 5,
     "stepsModules": 0

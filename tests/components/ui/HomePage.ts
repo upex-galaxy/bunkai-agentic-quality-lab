@@ -182,6 +182,37 @@ export class HomePage extends UiBase {
     await expect(p2Chip).toHaveText(new RegExp(`^P2\\s*${SEVERITY_LABELS.P2}\\s*${expected.P2}$`));
   }
 
+  /**
+   * ATC: The Home "Open bugs" card shows exactly the active workspace's counts:
+   * the total and all four severity chips. Starts on /home (navigation is the
+   * separate `open()` helper; the workspace is chosen by `selectWorkspace()`).
+   *
+   * Fixed assertions:
+   *  - skeleton placeholder gone (private waitForCardSettled) BEFORE any read
+   *  - total text equals expected.total
+   *  - each chip P1..P4 visible and its text matches /^{sev}\s*{label}\s*{expected[sev]}$/
+   * Scenario assertions: values from `expected` (the active workspace's API
+   * read). A zero chip is asserted too: that is how "no bug of the inactive
+   * workspace" is proven for a severity only the inactive workspace holds.
+   *
+   * Locators are scoped to the "Open bugs" region (BK-1096 CI strict-mode finding).
+   *
+   * @param expected - total and per-severity counts of the active workspace
+   */
+  @atc('BK-1099')
+  async showsOnlyActiveWorkspaceOpenBugs(expected: OpenBugsCounts): Promise<void> {
+    await this.waitForCardSettled();
+
+    const card = this.page.getByRole('region', { name: 'Open bugs' });
+    await expect(card.getByTestId('home-open-bugs-count')).toHaveText(String(expected.total));
+
+    for (const severity of SEVERITIES) {
+      const chip = card.getByTestId(`home-open-bugs-severity-${severity}`);
+      await expect(chip).toBeVisible();
+      await expect(chip).toHaveText(new RegExp(`^${severity}\\s*${SEVERITY_LABELS[severity]}\\s*${expected[severity]}$`));
+    }
+  }
+
   // ============================================
   // Private helpers
   // ============================================
