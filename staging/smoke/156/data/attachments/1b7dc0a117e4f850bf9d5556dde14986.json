@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "unauthorized",
+    "message": "Invalid token.",
+    "request_id": "2e307db3-5b72-4571-827d-413d3aec51b4"
+  }
+}

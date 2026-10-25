@@ -1,0 +1,11 @@
+✅ [BK-331] exportSnapshot - PASS (481ms)
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/user-stories/cb997c18-3b51-45e3-8a16-84d7aa3bd222
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/user-stories/cb997c18-3b51-45e3-8a16-84d7aa3bd222
+❌ [BK-331] exportSnapshot - FAIL: locator.click: Error: strict mode violation: locator('[data-testid="traceability-export-button"]') resolved to 2 elements:
+    1) <button type="button" aria-busy="false" data-testid="traceability-export-button" class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap rounded-2 font-medium transition-colors duration-token ease-token focus-visible:outline-1 focus-visible:outline-offset-1 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-50 bg-accent text-white border border-accent hover:bg-accent-hi hover:border-accent-hi h-7 px-2.5 text-xs ml-auto">…</button> aka getByRole('button', { name: 'Export snapshot' })
+    2) <button type="button" aria-busy="false" data-testid="traceability-export-button" class="inline-flex items-center justify-center gap-1.5 whitespace-nowrap rounded-2 font-medium transition-colors duration-token ease-token focus-visible:outline-1 focus-visible:outline-offset-1 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-50 bg-accent text-white border border-accent hover:bg-accent-hi hover:border-accent-hi h-7 px-2.5 text-xs ml-auto">…</button> aka getByTestId('traceability-export-button').nth(1)
+
+Call log:
+  - waiting for locator('[data-testid="traceability-export-button"]')
+
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/user-stories/cb997c18-3b51-45e3-8a16-84d7aa3bd222

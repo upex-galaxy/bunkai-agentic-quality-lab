@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "1f1e61b4-d823-4c49-9318-7f50724aa654",
+    "title": "[BK-258 QA] coruscus viduo arbor damnatio",
+    "atc_id": null,
+    "module": {
+      "id": "085649c9-9e0c-48ed-bde8-d37fe77c1f2c",
+      "name": "BK258 Module 1792912141833-YyrD8Y",
+      "path": "bk258-module-1792912141833-yyrd8y",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P2",
+    "module_id": "085649c9-9e0c-48ed-bde8-d37fe77c1f2c",
+    "created_at": "2026-10-25T07:09:02.625538+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "62c4bb60-b361-4977-be2d-813aaf6d28fd",
+    "updated_at": "2026-10-25T07:09:02.809779+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

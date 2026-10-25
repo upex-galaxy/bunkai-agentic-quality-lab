@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "af1457d9-ae3e-4b6f-ada5-bff47c371458",
+    "title": "[BK-258 QA] patior tardus aestas tergo",
+    "atc_id": null,
+    "module": {
+      "id": "c5b121de-eb72-42d9-a281-8f8c73aae9b4",
+      "name": "BK258 Module 1792912133236-EUBQmx",
+      "path": "bk258-module-1792912133236-eubqmx",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "c5b121de-eb72-42d9-a281-8f8c73aae9b4",
+    "created_at": "2026-10-25T07:08:53.668978+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "d3de1123-de0a-47ac-bbbc-44125aad8f95",
+    "updated_at": "2026-10-25T07:08:54.057481+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
