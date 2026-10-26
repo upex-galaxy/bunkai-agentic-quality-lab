@@ -1,5 +1,0 @@
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/ccf26aa8-faed-4c30-a153-08216249a9cb/projects
----- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/ccf26aa8-faed-4c30-a153-08216249a9cb/projects
-✅ [BK-607] showsDescriptionWhenPresentOmitsWhenAbsent - PASS (26ms)
-✅ [BK-607] showsDescriptionWhenPresentOmitsWhenAbsent - PASS (19ms)

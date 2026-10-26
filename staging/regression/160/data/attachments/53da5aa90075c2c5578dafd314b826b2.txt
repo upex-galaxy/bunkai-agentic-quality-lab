@@ -1,0 +1,3 @@
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/4cd9976c-913e-4ab1-b7cb-00b4c42ccdac/projects
+✅ [BK-606] activateProjectEntryNavigatesToProject - PASS (897ms)

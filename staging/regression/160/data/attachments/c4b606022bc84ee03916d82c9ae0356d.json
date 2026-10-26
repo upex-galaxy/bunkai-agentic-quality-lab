@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "bf39a210-6080-4481-ae26-b424ea3bd4b0",
+    "title": "[BK-258 QA] abscido vomer clibanus aduro",
+    "atc_id": null,
+    "module": {
+      "id": "c667597b-a5cf-4744-a97e-d38670070b5b",
+      "name": "BK258 Module 1792985286952-QldzWw",
+      "path": "bk258-module-1792985286952-qldzww",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P1",
+    "module_id": "c667597b-a5cf-4744-a97e-d38670070b5b",
+    "created_at": "2026-10-26T03:28:07.566928+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "6c081be7-6ca2-4d1b-a0f3-db0420588108",
+    "updated_at": "2026-10-26T03:28:07.566928+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "3e6eb436-d406-4a24-bca2-175cdb5c20df",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
