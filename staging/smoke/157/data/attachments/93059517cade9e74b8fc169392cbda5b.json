@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "0a7b67ba-1833-4078-8145-cc067461ee07",
+    "title": "[BK-258 QA] ipsum clam tamdiu tero",
+    "atc_id": null,
+    "module": {
+      "id": "a510e1f1-5a3c-4e38-98fa-83adf3a41085",
+      "name": "BK258 Module 1792999202015-PCbNvk",
+      "path": "bk258-module-1792999202015-pcbnvk",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "closed",
+    "severity": "P3",
+    "module_id": "a510e1f1-5a3c-4e38-98fa-83adf3a41085",
+    "created_at": "2026-10-26T07:20:02.659139+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "acb28df0-0cbd-42a3-8998-f3a1898cb77b",
+    "updated_at": "2026-10-26T07:20:03.66512+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
