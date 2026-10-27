@@ -488,7 +488,9 @@ work_types:
     used_by: [acli, sprint-testing, test-documentation, project-discovery]
 
   bug:
-    jira_issue_type: Bug
+    # This instance returns the localized name "Error" on issue payloads while the
+    # workflow catalog keeps "Bug"; declaring both lets jira:sync-issues match either.
+    jira_issue_type: Bug | Error
     description: Defect / bug work item
     sync: default
     coverable: true
@@ -705,7 +707,9 @@ work_types:
       aborted: { from: any, to: aborted, description: Abandon the defect (global transition) }
 
   improvement:
-    jira_issue_type: Improvement
+    # This instance returns the localized name "Mejora" on issue payloads while the
+    # workflow catalog keeps "Improvement"; declaring both lets jira:sync-issues match either.
+    jira_issue_type: Improvement | Mejora
     description: Improvement / enhancement work item
     sync: optional
     recommended: true
