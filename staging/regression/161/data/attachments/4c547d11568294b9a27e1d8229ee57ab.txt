@@ -1,0 +1,2 @@
+---- API NOK: 400 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/not-a-uuid/open-bugs
+✅ [BK-1102] expectBadRequestForMalformedWorkspaceId - PASS (172ms)

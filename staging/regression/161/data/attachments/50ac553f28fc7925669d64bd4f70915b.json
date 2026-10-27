@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "64e98ad1-33c9-4e42-9111-6f49d5e7c907",
+    "title": "[BK-258 QA] copiose vomer termes atrocitas",
+    "atc_id": null,
+    "module": {
+      "id": "c4248c6e-1855-4294-b5c7-9bf027c3e9ff",
+      "name": "BK258 Module 1793073308808-FCvaQ8",
+      "path": "bk258-module-1793073308808-fcvaq8",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "c4248c6e-1855-4294-b5c7-9bf027c3e9ff",
+    "created_at": "2026-10-27T03:55:09.386779+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ae35d478-fd14-43da-9d9f-bfe91faffef7",
+    "updated_at": "2026-10-27T03:55:09.386779+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "4947c2a4-c8ea-4c0c-bd05-453ebe366fae",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

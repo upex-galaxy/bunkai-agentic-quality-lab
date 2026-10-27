@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "53d74a45-eb75-4f3d-9f24-1eab5d289425",
+    "title": "[BK-258 QA] talio cui ustilo videlicet",
+    "atc_id": null,
+    "module": {
+      "id": "1ae63b7e-5fcc-457f-8583-cb05ea85ad9d",
+      "name": "BK258 Module 1793073299725-B1XAHK",
+      "path": "bk258-module-1793073299725-b1xahk",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P4",
+    "module_id": "1ae63b7e-5fcc-457f-8583-cb05ea85ad9d",
+    "created_at": "2026-10-27T03:55:02.389119+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "1ca84f00-6062-4559-b928-0c7c03adbc46",
+    "updated_at": "2026-10-27T03:55:02.78615+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

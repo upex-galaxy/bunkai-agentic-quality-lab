@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "93c6f35e-2d2a-4e7e-b954-5d9081bba99c",
+    "title": "[BK-258 QA] antepono tergo tripudio ustulo",
+    "atc_id": null,
+    "module": {
+      "id": "8437f0a0-cd0c-4efd-9f41-e0ca5f710d85",
+      "name": "BK258 Module 1793073306957-0nUcrL",
+      "path": "bk258-module-1793073306957-0nucrl",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "8437f0a0-cd0c-4efd-9f41-e0ca5f710d85",
+    "created_at": "2026-10-27T03:55:07.919059+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "3331de7c-149f-4c8f-ae5d-b8e857f713c9",
+    "updated_at": "2026-10-27T03:55:07.919059+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "fe85e176-c68c-416b-a665-82a26a1730e5",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
