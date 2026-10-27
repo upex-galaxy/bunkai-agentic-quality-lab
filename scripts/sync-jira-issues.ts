@@ -4508,6 +4508,7 @@ export {
   higherAltitudeLabel,
   isMasterTestPlanEpic,
   ladderTitleAcronym,
+  loadRegistry,
   MODULE_CONTEXT_FILE,
   MODULE_CONTEXT_HEADING,
   MTP_CACHE_FILE,
