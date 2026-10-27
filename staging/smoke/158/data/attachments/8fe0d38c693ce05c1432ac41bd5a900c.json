@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e93956af-b43d-43a4-a6a0-0ae11823abc9",
+    "title": "[BK-258 QA] reiciendis benigne aegrus suscipit",
+    "atc_id": null,
+    "module": {
+      "id": "399ca816-f046-4e59-b461-ceb1797f216a",
+      "name": "BK258 Module 1793084857318-oGZh2h",
+      "path": "bk258-module-1793084857318-ogzh2h",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "399ca816-f046-4e59-b461-ceb1797f216a",
+    "created_at": "2026-10-27T07:07:37.836502+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "fb1dcb5f-b00b-4dc3-9552-07355f4c288f",
+    "updated_at": "2026-10-27T07:07:38.272946+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

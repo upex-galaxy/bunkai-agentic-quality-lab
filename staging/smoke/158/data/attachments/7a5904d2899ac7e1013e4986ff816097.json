@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "050f0112-a829-49b3-9a18-6039ec122630",
+    "title": "[BK-258 QA] tonsor averto utrimque earum",
+    "atc_id": null,
+    "module": {
+      "id": "f3e02d21-ef64-481b-8853-30314dc04ab7",
+      "name": "BK258 Module 1793084861075-FXto3l",
+      "path": "bk258-module-1793084861075-fxto3l",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "f3e02d21-ef64-481b-8853-30314dc04ab7",
+    "created_at": "2026-10-27T07:07:41.520474+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "fb1dcb5f-b00b-4dc3-9552-07355f4c288f",
+    "updated_at": "2026-10-27T07:07:41.893099+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

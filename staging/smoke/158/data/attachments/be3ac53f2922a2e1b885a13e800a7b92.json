@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "947a679f-980e-49d4-88bd-5e2474ce41d2",
+    "title": "[BK-258 QA] alienus summa alias aperiam",
+    "atc_id": null,
+    "module": {
+      "id": "efe53c54-a871-4474-bfb0-b57855944746",
+      "name": "BK258 Module 1793084853676-7CaVB0",
+      "path": "bk258-module-1793084853676-7cavb0",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "efe53c54-a871-4474-bfb0-b57855944746",
+    "created_at": "2026-10-27T07:07:34.135021+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "fb1dcb5f-b00b-4dc3-9552-07355f4c288f",
+    "updated_at": "2026-10-27T07:07:34.135021+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
