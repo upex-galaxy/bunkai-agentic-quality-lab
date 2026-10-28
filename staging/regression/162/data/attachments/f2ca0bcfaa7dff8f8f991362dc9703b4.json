@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "bd8f09a9-851f-4015-a49b-1a5cd93c2cdb",
+    "title": "[BK-258 QA] textus una vesco varius",
+    "atc_id": null,
+    "module": {
+      "id": "bfd8f73f-e06b-4410-ac7f-c3d04e605513",
+      "name": "BK258 Module 1793160974855-xOdiKC",
+      "path": "bk258-module-1793160974855-xodikc",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "bfd8f73f-e06b-4410-ac7f-c3d04e605513",
+    "created_at": "2026-10-28T04:16:18.843338+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "92a0e68c-9c73-4737-86f4-01a2cc744331",
+    "updated_at": "2026-10-28T04:16:18.843338+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

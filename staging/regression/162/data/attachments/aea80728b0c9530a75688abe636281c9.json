@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "0c33f354-1ef8-4f68-8abe-2ece0fc92048",
+    "title": "[BK-258 QA] surculus beneficium tabula defero",
+    "atc_id": null,
+    "module": {
+      "id": "6b054dbb-b4e4-46cc-9d5e-41825a6de522",
+      "name": "BK258 Module 1793160991545-sQhe3Z",
+      "path": "bk258-module-1793160991545-sqhe3z",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P4",
+    "module_id": "6b054dbb-b4e4-46cc-9d5e-41825a6de522",
+    "created_at": "2026-10-28T04:16:34.40398+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "cab6decf-66b4-459b-8242-cd82a7407e56",
+    "updated_at": "2026-10-28T04:16:34.40398+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "1945df4f-6515-495f-88f5-62043060a812",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

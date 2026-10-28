@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "e1364778-80bd-4528-905b-fe1050b79851",
+    "title": "[BK-258 QA] tactus thermae tibi adflicto",
+    "atc_id": null,
+    "module": {
+      "id": "e1208357-84ae-4764-b4e4-b8fc7a653eb2",
+      "name": "BK258 Module 1793160924604-Ben81p",
+      "path": "bk258-module-1793160924604-ben81p",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "e1208357-84ae-4764-b4e4-b8fc7a653eb2",
+    "created_at": "2026-10-28T04:15:26.628886+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ab31cfdb-8d31-4860-b8f4-c75843ed9f08",
+    "updated_at": "2026-10-28T04:15:26.628886+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

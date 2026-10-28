@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "c8be08ff-07ff-459c-be84-efd1ae1e26b7",
+    "title": "[BK-258 QA] quidem tripudio clementia benevolentia",
+    "atc_id": null,
+    "module": {
+      "id": "7a3fc469-5ccb-41b9-85c9-bf4585979d71",
+      "name": "BK258 Module 1793160934820-Z7G1cA",
+      "path": "bk258-module-1793160934820-z7g1ca",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "7a3fc469-5ccb-41b9-85c9-bf4585979d71",
+    "created_at": "2026-10-28T04:15:37.714862+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ef089614-550b-4c4b-902a-089bbd08cfdf",
+    "updated_at": "2026-10-28T04:15:37.714862+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
