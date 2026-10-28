@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "b4382547-d475-4389-a250-0e725965b843",
+    "title": "[BK-258 QA] vado stultus adiuvo molestiae",
+    "atc_id": null,
+    "module": {
+      "id": "45a297a4-667e-4921-9157-f94fb4751491",
+      "name": "BK258 Module 1793173610128-oiZ9hs",
+      "path": "bk258-module-1793173610128-oiz9hs",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "45a297a4-667e-4921-9157-f94fb4751491",
+    "created_at": "2026-10-28T07:46:50.977538+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "c9054f72-0de2-4e66-8f7f-e2bd7eae5e72",
+    "updated_at": "2026-10-28T07:46:50.977538+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

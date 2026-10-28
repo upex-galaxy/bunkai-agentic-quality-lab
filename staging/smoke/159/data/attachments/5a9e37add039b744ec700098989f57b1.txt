@@ -1,0 +1,9 @@
+[UI Setup] Starting UI authentication...
+[UI Setup] Target: /login
+[UI Setup] UI login successful
+[UI Setup] Intercepting signin response...
+[UI Setup] Session intercepted successfully
+[UI Setup] Storage state saved to .auth/user.json
+[UI Setup] API token saved to .auth/api-state.json
+[UI Setup] Authentication successful
+[UI Setup] Current URL: https://staging-upexbunkai.vercel.app/projects

@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "d1bb53b3-5374-425b-b83b-24fc5b90432e",
+    "title": "[BK-258 QA] somniculosus curriculum iure votum",
+    "atc_id": null,
+    "module": {
+      "id": "af912f83-eede-4a95-b850-74c97fe96001",
+      "name": "BK258 Module 1793173593347-pVu4ru",
+      "path": "bk258-module-1793173593347-pvu4ru",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "af912f83-eede-4a95-b850-74c97fe96001",
+    "created_at": "2026-10-28T07:46:33.868885+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "8b28f2a0-c4de-4e69-8e3f-da23a9b60be9",
+    "updated_at": "2026-10-28T07:46:33.868885+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
