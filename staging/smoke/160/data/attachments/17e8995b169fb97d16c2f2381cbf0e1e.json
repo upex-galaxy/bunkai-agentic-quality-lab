@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "ddab49c7-3509-4493-8e28-3084b36595fd",
+    "title": "[BK-258 QA] templum umerus vis quae",
+    "atc_id": null,
+    "module": {
+      "id": "ab5c6199-352a-41d7-934e-6fc641077f13",
+      "name": "BK258 Module 1793260387506-1x4MAZ",
+      "path": "bk258-module-1793260387506-1x4maz",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "closed",
+    "severity": "P3",
+    "module_id": "ab5c6199-352a-41d7-934e-6fc641077f13",
+    "created_at": "2026-10-29T07:53:08.170996+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "9cf91230-656f-4222-bcf1-9e822016e746",
+    "updated_at": "2026-10-29T07:53:08.91796+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

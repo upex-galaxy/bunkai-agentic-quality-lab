@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "db917d66-8195-4484-a839-43cd70165c71",
+    "title": "[BK-258 QA] voluntarius cras curso bene",
+    "atc_id": null,
+    "module": {
+      "id": "110cf21e-f895-47b4-9f04-ca8e6ca112f7",
+      "name": "BK258 Module 1793260393093-Am6mC1",
+      "path": "bk258-module-1793260393093-am6mc1",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "110cf21e-f895-47b4-9f04-ca8e6ca112f7",
+    "created_at": "2026-10-29T07:53:15.143346+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "73ed2da1-44f4-4132-9fdc-283f27e875d3",
+    "updated_at": "2026-10-29T07:53:15.143346+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

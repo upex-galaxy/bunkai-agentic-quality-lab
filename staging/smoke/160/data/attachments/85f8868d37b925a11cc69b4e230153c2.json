@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "15bf4863-7d48-4e25-87c7-d445531ec8d1",
+    "title": "[BK-258 QA] turbo antea demitto comis",
+    "atc_id": null,
+    "module": {
+      "id": "8b466335-eb00-4527-9ce8-16f78f8f3e77",
+      "name": "BK258 Module 1793260378181-qbqBc9",
+      "path": "bk258-module-1793260378181-qbqbc9",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "8b466335-eb00-4527-9ce8-16f78f8f3e77",
+    "created_at": "2026-10-29T07:52:58.733215+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "9cf91230-656f-4222-bcf1-9e822016e746",
+    "updated_at": "2026-10-29T07:52:58.997627+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
