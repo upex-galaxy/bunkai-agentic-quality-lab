@@ -1,1 +1,0 @@
-✅ [BK-462] expectUncoveredStripForZeroAtcAc - PASS (1545ms)

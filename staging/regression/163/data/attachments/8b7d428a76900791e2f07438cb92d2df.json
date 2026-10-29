@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "87996f19-7494-4cea-92ed-fb666248a21a",
+    "title": "[BK-258 QA] absum paens paens dolorem",
+    "atc_id": null,
+    "module": {
+      "id": "0f7042da-9b47-43c5-ab98-7cbf3ca58b10",
+      "name": "BK258 Module 1793248585236-FuFNMs",
+      "path": "bk258-module-1793248585236-fufnms",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "0f7042da-9b47-43c5-ab98-7cbf3ca58b10",
+    "created_at": "2026-10-29T04:36:25.842706+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "adce734e-a75e-4d28-989a-1500df6445d3",
+    "updated_at": "2026-10-29T04:36:26.138868+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
