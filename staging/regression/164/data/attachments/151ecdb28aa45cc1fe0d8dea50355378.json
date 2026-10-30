@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "7d79f74e-d5f1-4c8b-aec9-752c685d5219",
+    "title": "[BK-258 QA] summopere cuius volva utrum",
+    "atc_id": null,
+    "module": {
+      "id": "f3969d95-6093-4f52-9cfe-dc9236f7c1fd",
+      "name": "BK258 Module 1793335001390-f6jEuj",
+      "path": "bk258-module-1793335001390-f6jeuj",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "f3969d95-6093-4f52-9cfe-dc9236f7c1fd",
+    "created_at": "2026-10-30T04:36:42.140919+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "36297e7f-924a-450e-8bd5-b63821176355",
+    "updated_at": "2026-10-30T04:36:42.140919+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

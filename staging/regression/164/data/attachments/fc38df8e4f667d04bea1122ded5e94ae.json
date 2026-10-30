@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "8cbb12d2-2edb-4b83-8395-2e629ce2b265",
+    "title": "[BK-258 QA] similique certe blandior odit",
+    "atc_id": null,
+    "module": {
+      "id": "68c1ced1-65c3-4684-83ae-6d03254c6cd0",
+      "name": "BK258 Module 1793335016712-GbSwK7",
+      "path": "bk258-module-1793335016712-gbswk7",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "68c1ced1-65c3-4684-83ae-6d03254c6cd0",
+    "created_at": "2026-10-30T04:36:57.304216+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "981c6d90-7827-4e72-bf70-2b60811fb480",
+    "updated_at": "2026-10-30T04:36:57.304216+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "47078b4a-c36b-4d10-8924-d6069703b9bb",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

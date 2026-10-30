@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "cb99b960-e1fd-4cea-950e-c35c0ce22607",
+    "title": "[BK-258 QA] censura triumphus abscido theatrum",
+    "atc_id": null,
+    "module": {
+      "id": "4ccb9c70-4e1a-45ce-bd40-6eed7ebae061",
+      "name": "BK258 Module 1793334979004-YXHOm3",
+      "path": "bk258-module-1793334979004-yxhom3",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "4ccb9c70-4e1a-45ce-bd40-6eed7ebae061",
+    "created_at": "2026-10-30T04:36:19.994524+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "7486c8cf-069e-4e68-9cff-5b93fa7d7004",
+    "updated_at": "2026-10-30T04:36:19.994524+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
