@@ -1,0 +1,11 @@
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/me
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/a53d640a-23e7-4b74-b728-b32e31204941/open-bugs
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/projects/c1eee5b1-21e4-4389-9295-019e05a87174/modules
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/bugs
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/bugs/50f81b8a-30af-4d24-b031-c71e45662ed7/status
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/bugs/50f81b8a-30af-4d24-b031-c71e45662ed7/status
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/bugs/50f81b8a-30af-4d24-b031-c71e45662ed7/status
+✅ [BK-1094] showsCountedBugTotalAndMinorChip - PASS (282ms)
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/a53d640a-23e7-4b74-b728-b32e31204941/open-bugs
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/modules/6e2d3c44-7431-4bbf-8e2e-33afd938a730
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/a53d640a-23e7-4b74-b728-b32e31204941/open-bugs

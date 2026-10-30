@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "50f81b8a-30af-4d24-b031-c71e45662ed7",
+    "title": "[BK-258 QA] alius amo solium tego",
+    "atc_id": null,
+    "module": {
+      "id": "6e2d3c44-7431-4bbf-8e2e-33afd938a730",
+      "name": "BK258 Module 1793346999051-GOiudq",
+      "path": "bk258-module-1793346999051-goiudq",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "6e2d3c44-7431-4bbf-8e2e-33afd938a730",
+    "created_at": "2026-10-30T07:56:39.831702+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "c1eee5b1-21e4-4389-9295-019e05a87174",
+    "updated_at": "2026-10-30T07:56:40.41364+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

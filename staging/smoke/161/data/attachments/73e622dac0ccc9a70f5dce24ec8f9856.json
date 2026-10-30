@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "3f5a6cdd-e4fb-4dfe-a514-f29147cf8401",
+    "title": "[BK-258 QA] subvenio assentator chirographum vilicus",
+    "atc_id": null,
+    "module": {
+      "id": "2d7d5bba-e542-4343-97a2-0795fc3792f5",
+      "name": "BK258 Module 1793346983253-x1gOYb",
+      "path": "bk258-module-1793346983253-x1goyb",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "2d7d5bba-e542-4343-97a2-0795fc3792f5",
+    "created_at": "2026-10-30T07:56:24.013339+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "c1eee5b1-21e4-4389-9295-019e05a87174",
+    "updated_at": "2026-10-30T07:56:24.013339+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
