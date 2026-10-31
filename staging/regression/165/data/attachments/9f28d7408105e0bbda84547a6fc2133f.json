@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "bad_request",
+    "message": "Workspace id must be a UUID.",
+    "request_id": "6c475855-bbad-4174-97fe-44f16c1f2993"
+  }
+}
