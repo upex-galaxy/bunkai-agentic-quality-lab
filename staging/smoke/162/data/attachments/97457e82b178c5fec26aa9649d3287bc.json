@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "17f2a48a-68d9-4d44-9b18-998c0c1e799c",
+    "title": "[BK-258 QA] valeo et valeo attonbitus",
+    "atc_id": null,
+    "module": {
+      "id": "3fc857d2-8005-4eae-a568-564cb50b13f5",
+      "name": "BK258 Module 1793432968507-vItk0s",
+      "path": "bk258-module-1793432968507-vitk0s",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P4",
+    "module_id": "3fc857d2-8005-4eae-a568-564cb50b13f5",
+    "created_at": "2026-10-31T07:49:30.904649+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "0613e6e9-cef8-4cf7-bee4-d272ce33a3fe",
+    "updated_at": "2026-10-31T07:49:31.192389+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "f55bfcc5-2906-480f-bd93-c2edd69adda5",
+    "title": "[BK-258 QA] caput tribuo triduana capillus",
+    "atc_id": null,
+    "module": {
+      "id": "1a6e158a-365e-4363-b941-aafde50cb431",
+      "name": "BK258 Module 1793432948479-d8vkdN",
+      "path": "bk258-module-1793432948479-d8vkdn",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "1a6e158a-365e-4363-b941-aafde50cb431",
+    "created_at": "2026-10-31T07:49:09.170694+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "0c5f668a-72f0-4956-b825-f308d70b2cee",
+    "updated_at": "2026-10-31T07:49:09.170694+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
