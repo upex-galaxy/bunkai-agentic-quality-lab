@@ -1,8 +1,40 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-10-25T23:52:12.519Z",
+  "generatedAt": "2026-11-01T02:03:54.836Z",
   "components": {
     "api": [
+      {
+        "name": "AtcsApi",
+        "file": "AtcsApi.ts",
+        "relativePath": "tests/components/api/AtcsApi.ts",
+        "atcs": [
+          {
+            "id": "BK-1368",
+            "method": "expectLeanAtcRead",
+            "line": 65
+          },
+          {
+            "id": "BK-1374",
+            "method": "expectExpandedAtcRead",
+            "line": 94
+          },
+          {
+            "id": "BK-1377",
+            "method": "expectInvalidExpandRejected",
+            "line": 133
+          },
+          {
+            "id": "BK-1378",
+            "method": "expectAtcNotFound",
+            "line": 160
+          },
+          {
+            "id": "BK-1379",
+            "method": "expectMalformedAtcIdRejected",
+            "line": 178
+          }
+        ]
+      },
       {
         "name": "AuthApi",
         "file": "AuthApi.ts",
@@ -292,9 +324,9 @@
   },
   "steps": [],
   "summary": {
-    "totalComponents": 12,
-    "totalATCs": 41,
-    "apiComponents": 7,
+    "totalComponents": 13,
+    "totalATCs": 46,
+    "apiComponents": 8,
     "uiComponents": 5,
     "stepsModules": 0
   }
