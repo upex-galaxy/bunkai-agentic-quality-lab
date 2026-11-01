@@ -17,6 +17,7 @@
 import type { TestContextOptions } from '@TestContext';
 
 import { ApiBase } from '@api/ApiBase';
+import { AtcsApi } from '@api/AtcsApi';
 import { AuthApi } from '@api/AuthApi';
 import { BugsApi } from '@api/BugsApi';
 import { OpenBugsApi } from '@api/OpenBugsApi';
@@ -51,6 +52,9 @@ export class ApiFixture extends ApiBase {
   /** Runs component - BK-45 setup helpers (start a Run, abort it) */
   readonly runs: RunsApi;
 
+  /** ATCs component - BK-595 single-ATC read (BK-1368, BK-1374, BK-1377, BK-1378, BK-1379) */
+  readonly atcs: AtcsApi;
+
   constructor(options: TestContextOptions) {
     super(options);
 
@@ -62,6 +66,7 @@ export class ApiFixture extends ApiBase {
     this.openBugs = new OpenBugsApi(options);
     this.bugs = new BugsApi(options);
     this.runs = new RunsApi(options);
+    this.atcs = new AtcsApi(options);
   }
 
   // ============================================
@@ -81,6 +86,7 @@ export class ApiFixture extends ApiBase {
     this.openBugs.setAuthToken(token);
     this.bugs.setAuthToken(token);
     this.runs.setAuthToken(token);
+    this.atcs.setAuthToken(token);
   }
 
   /**
@@ -95,5 +101,6 @@ export class ApiFixture extends ApiBase {
     this.openBugs.clearAuthToken();
     this.bugs.clearAuthToken();
     this.runs.clearAuthToken();
+    this.atcs.clearAuthToken();
   }
 }
