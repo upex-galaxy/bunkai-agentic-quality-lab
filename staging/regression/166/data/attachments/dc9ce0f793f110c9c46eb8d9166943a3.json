@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "b46013a2-517f-482c-bf6b-56e4e0a4fa42",
+    "title": "[BK-258 QA] accusantium tabesco vaco sublime",
+    "atc_id": null,
+    "module": {
+      "id": "e4fd07b1-e7a0-4b59-b8d5-e43787b0eede",
+      "name": "BK258 Module 1793507984358-jhhK80",
+      "path": "bk258-module-1793507984358-jhhk80",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P1",
+    "module_id": "e4fd07b1-e7a0-4b59-b8d5-e43787b0eede",
+    "created_at": "2026-11-01T04:39:44.817028+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "5e9df5b1-43e8-41af-b76b-7f3cc33f60d6",
+    "updated_at": "2026-11-01T04:39:44.817028+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "eff7c5ce-e673-4cfa-a68c-15f9ca6c8c1f",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
