@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "2d08830e-6db2-4b93-8633-9191dee0f8be",
+    "title": "[BK-258 QA] error consequatur enim patior",
+    "atc_id": null,
+    "module": {
+      "id": "b5ab3887-65c5-4675-8c7d-83745fa55f9f",
+      "name": "BK258 Module 1793608871756-4oraVX",
+      "path": "bk258-module-1793608871756-4oravx",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "b5ab3887-65c5-4675-8c7d-83745fa55f9f",
+    "created_at": "2026-11-02T08:41:13.131627+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "4e3d5b9b-20e3-4879-b6d8-782e083228f0",
+    "updated_at": "2026-11-02T08:41:13.131627+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
