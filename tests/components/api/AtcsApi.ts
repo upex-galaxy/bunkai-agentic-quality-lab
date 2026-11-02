@@ -186,4 +186,123 @@ export class AtcsApi extends ApiBase {
 
     return [response, body];
   }
+
+  /**
+   * ATC: The `expand` query is normalised before use (case, whitespace, empty
+   * segments, duplicates, repeated params) and the payload carries exactly the
+   * requested collections.
+   *
+   * @param args - target ATC id, raw query string, and the collections it must yield
+   * @param args.atcId - UUID of an accessible ATC in the workspace
+   * @param args.query - raw query string including the leading `?`, verbatim so
+   *                     a repeated `expand` param can be expressed
+   * @param args.expected - expansions the payload must carry (and no others)
+   */
+  @atc('BK-1376')
+  async expectExpandParserApplied(
+    args: { atcId: string, query: string, expected: AtcExpansionKey[] },
+  ): Promise<[APIResponse, AtcGetResponse]> {
+    const [response, body] = await this.apiGET<AtcGetResponse>(`/v1/atcs/${args.atcId}${args.query}`);
+
+    expect(response.status()).toBe(200);
+    expect(Object.keys(body)).toEqual(['atc']);
+
+    for (const key of EXPANSION_KEYS) {
+      expect(key in body.atc, `'${key}' presence must follow the expected expansion set`).toBe(
+        args.expected.includes(key),
+      );
+    }
+
+    // The handler strips the RPC's join ids; they must never reach a caller.
+    expect('acceptance_criterion_ids' in body.atc).toBe(false);
+
+    return [response, body];
+  }
+
+  /**
+   * ATC: Reading an ATC with a credential that lacks `atc:read` answers 403
+   * `forbidden` naming the missing capability, and the refusal carries only the
+   * error envelope.
+   *
+   * The credential is whatever the test set on the component
+   * (`api.setAuthToken(<write-only PAT>)`), never a parameter.
+   *
+   * @param atcId - UUID of an accessible ATC in the workspace
+   */
+  @atc('BK-1386')
+  async expectReadRefusedForMissingCapability(atcId: string): Promise<[APIResponse, ErrorEnvelope]> {
+    const [response, body] = await this.apiGET<ErrorEnvelope>(`/v1/atcs/${atcId}`);
+
+    expect(response.status()).toBe(403);
+    expect(Object.keys(body)).toEqual(['error']);
+    expect(body.error.code).toBe('forbidden');
+    expect(body.error.message).toContain('atc:read');
+
+    return [response, body];
+  }
+
+  /**
+   * ATC: Reading an ATC with no credential answers 401 `unauthorized`, and the
+   * refusal carries only the error envelope.
+   *
+   * The credential is whatever the test set on the component
+   * (`api.clearAuthToken()`), never a parameter.
+   *
+   * @param atcId - UUID of an accessible ATC in the workspace
+   */
+  @atc('BK-1387')
+  async expectReadRefusedForAnonymousCaller(atcId: string): Promise<[APIResponse, ErrorEnvelope]> {
+    const [response, body] = await this.apiGET<ErrorEnvelope>(`/v1/atcs/${atcId}`);
+
+    expect(response.status()).toBe(401);
+    expect(Object.keys(body)).toEqual(['error']);
+    expect(body.error.code).toBe('unauthorized');
+    expect(body.error.message.length).toBeGreaterThan(0);
+
+    return [response, body];
+  }
+
+  /**
+   * ATC: Four reads of one ATC (lean, fully expanded, lean, expanded again)
+   * leave the resource untouched: `version` and `updated_at` never move and the
+   * expanded step content does not drift.
+   *
+   * The four reads are the action under test, not calls to other ATCs.
+   *
+   * @param atcId - UUID of an accessible ATC in the workspace
+   */
+  @atc('BK-1389')
+  async expectRepeatedReadsLeaveAtcUnchanged(atcId: string): Promise<[APIResponse, AtcGetResponse]> {
+    const [firstResponse, first] = await this.apiGET<AtcGetResponse>(`/v1/atcs/${atcId}`);
+    expect(firstResponse.status()).toBe(200);
+
+    const [expandedResponse, expanded] = await this.apiGET<AtcGetResponse>(
+      `/v1/atcs/${atcId}?expand=steps,assertions,acceptance_criteria,used_in`,
+    );
+    expect(expandedResponse.status()).toBe(200);
+
+    const [secondResponse, second] = await this.apiGET<AtcGetResponse>(`/v1/atcs/${atcId}`);
+    expect(secondResponse.status()).toBe(200);
+
+    expect(first.atc.id).toBe(atcId);
+    expect(expanded.atc.id).toBe(atcId);
+    expect(second.atc.id).toBe(atcId);
+
+    expect(expanded.atc.version).toBe(first.atc.version);
+    expect(second.atc.version).toBe(first.atc.version);
+
+    expect(expanded.atc.updated_at).toBe(first.atc.updated_at);
+    expect(second.atc.updated_at).toBe(first.atc.updated_at);
+
+    const [expandedAgainResponse, expandedAgain] = await this.apiGET<AtcGetResponse>(
+      `/v1/atcs/${atcId}?expand=steps,assertions,acceptance_criteria,used_in`,
+    );
+    expect(expandedAgainResponse.status()).toBe(200);
+
+    expect(expandedAgain.atc.version).toBe(first.atc.version);
+    expect(expandedAgain.atc.updated_at).toBe(first.atc.updated_at);
+    expect(expandedAgain.atc.steps).toEqual(expanded.atc.steps);
+
+    return [expandedAgainResponse, expandedAgain];
+  }
 }

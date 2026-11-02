@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-11-01T02:03:54.836Z",
+  "generatedAt": "2026-11-02T19:03:03.566Z",
   "components": {
     "api": [
       {
@@ -19,6 +19,11 @@
             "line": 94
           },
           {
+            "id": "BK-1376",
+            "method": "expectExpandParserApplied",
+            "line": 201
+          },
+          {
             "id": "BK-1377",
             "method": "expectInvalidExpandRejected",
             "line": 133
@@ -32,6 +37,21 @@
             "id": "BK-1379",
             "method": "expectMalformedAtcIdRejected",
             "line": 178
+          },
+          {
+            "id": "BK-1386",
+            "method": "expectReadRefusedForMissingCapability",
+            "line": 232
+          },
+          {
+            "id": "BK-1387",
+            "method": "expectReadRefusedForAnonymousCaller",
+            "line": 253
+          },
+          {
+            "id": "BK-1389",
+            "method": "expectRepeatedReadsLeaveAtcUnchanged",
+            "line": 274
           }
         ]
       },
@@ -325,7 +345,7 @@
   "steps": [],
   "summary": {
     "totalComponents": 13,
-    "totalATCs": 46,
+    "totalATCs": 50,
     "apiComponents": 8,
     "uiComponents": 5,
     "stepsModules": 0
