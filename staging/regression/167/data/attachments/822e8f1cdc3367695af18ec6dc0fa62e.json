@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "0943d504-98e9-4171-a373-b79c37510014",
+    "title": "[BK-258 QA] aestas temptatio centum sufficio",
+    "atc_id": null,
+    "module": {
+      "id": "9f4c51d8-4a70-4447-bbc9-afe69dc0e69c",
+      "name": "BK258 Module 1793594531207-2Wm7FF",
+      "path": "bk258-module-1793594531207-2wm7ff",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P4",
+    "module_id": "9f4c51d8-4a70-4447-bbc9-afe69dc0e69c",
+    "created_at": "2026-11-02T04:42:12.349018+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "5f8c9dad-e805-48a4-9c71-e92931665da7",
+    "updated_at": "2026-11-02T04:42:12.349018+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "e7c31a70-1d5f-4a02-abb6-ea9d2b31eae3",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "692f084e-b8ee-4267-b01c-f8f5ba40fa08",
+    "title": "[BK-258 QA] valens maiores statua subiungo",
+    "atc_id": null,
+    "module": {
+      "id": "f2864bd4-36a2-46b5-b033-f8b3a667871a",
+      "name": "BK258 Module 1793594529135-jhxOSW",
+      "path": "bk258-module-1793594529135-jhxosw",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "f2864bd4-36a2-46b5-b033-f8b3a667871a",
+    "created_at": "2026-11-02T04:42:10.182556+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "b0f563de-598a-4c1f-bfb3-6fbb16afc032",
+    "updated_at": "2026-11-02T04:42:10.182556+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "b7547ed4-028d-4aac-abb7-59347a349b7d",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
