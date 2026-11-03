@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "5f606462-a3fe-4666-923c-1bc76ac6ba7b",
+    "title": "[BK-258 QA] incidunt suffragium asper quae",
+    "atc_id": null,
+    "module": {
+      "id": "d9d6b2a7-a77e-487d-af36-351df3340645",
+      "name": "BK258 Module 1793695983898-W24I0C",
+      "path": "bk258-module-1793695983898-w24i0c",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "closed",
+    "severity": "P3",
+    "module_id": "d9d6b2a7-a77e-487d-af36-351df3340645",
+    "created_at": "2026-11-03T08:53:04.509535+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "2c2b5c05-e9b3-4202-826a-7fa3c8460aa4",
+    "updated_at": "2026-11-03T08:53:05.432311+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

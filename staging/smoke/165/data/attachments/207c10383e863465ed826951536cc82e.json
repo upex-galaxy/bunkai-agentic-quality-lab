@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "40853be5-6029-4d98-bdc3-a717dcb72756",
+    "title": "[BK-258 QA] audax stella utpote usus",
+    "atc_id": null,
+    "module": {
+      "id": "df3e0c2a-8c42-462b-a904-e65ec98361e9",
+      "name": "BK258 Module 1793695969380-4Vsujb",
+      "path": "bk258-module-1793695969380-4vsujb",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "df3e0c2a-8c42-462b-a904-e65ec98361e9",
+    "created_at": "2026-11-03T08:52:50.093295+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "2c2b5c05-e9b3-4202-826a-7fa3c8460aa4",
+    "updated_at": "2026-11-03T08:52:50.093295+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
