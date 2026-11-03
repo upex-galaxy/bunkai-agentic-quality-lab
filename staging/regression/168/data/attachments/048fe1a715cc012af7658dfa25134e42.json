@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "cebaa031-2312-4ca0-9553-612f6ea96246",
+    "title": "[BK-258 QA] deficio facilis ad tabella",
+    "atc_id": null,
+    "module": {
+      "id": "aa377f58-2c81-40e3-ad46-8f49a769bf02",
+      "name": "BK258 Module 1793683956272-AptJ6Y",
+      "path": "bk258-module-1793683956272-aptj6y",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "aa377f58-2c81-40e3-ad46-8f49a769bf02",
+    "created_at": "2026-11-03T05:32:36.954669+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "ff7f505b-7efc-4870-8f8e-1ea16ab67408",
+    "updated_at": "2026-11-03T05:32:37.256924+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

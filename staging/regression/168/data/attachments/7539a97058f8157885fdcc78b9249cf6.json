@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "9286595e-1a80-4e00-89e5-c49eb9d25d8b",
+    "title": "[BK-258 QA] patria tempus sonitus verbum",
+    "atc_id": null,
+    "module": {
+      "id": "108cf718-2fb6-4dab-9aaa-359c92a3f44d",
+      "name": "BK258 Module 1793683976210-cXKCno",
+      "path": "bk258-module-1793683976210-cxkcno",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P4",
+    "module_id": "108cf718-2fb6-4dab-9aaa-359c92a3f44d",
+    "created_at": "2026-11-03T05:32:57.15398+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "7bba14a5-1c5a-494c-958c-cd4d0521d4e2",
+    "updated_at": "2026-11-03T05:32:57.15398+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "81659f98-87be-454a-9de2-da52820e03d3",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
