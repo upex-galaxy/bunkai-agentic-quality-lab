@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "83906447-7f8c-40ba-83ec-525c5528248b",
+    "title": "[BK-258 QA] minima aequus vix repudiandae",
+    "atc_id": null,
+    "module": {
+      "id": "e9e5bbbe-e239-4fb6-b310-caea414438fb",
+      "name": "BK258 Module 1793768484767-GxtbzY",
+      "path": "bk258-module-1793768484767-gxtbzy",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "e9e5bbbe-e239-4fb6-b310-caea414438fb",
+    "created_at": "2026-11-04T05:01:25.442101+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "1bf0d9a4-2fc6-4cde-b2af-74bb6681348e",
+    "updated_at": "2026-11-04T05:01:25.442101+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a6292955-7b73-42ef-b8df-def5fff03456",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

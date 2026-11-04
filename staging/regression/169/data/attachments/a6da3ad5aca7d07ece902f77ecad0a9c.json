@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "15f67b97-c917-4d47-b18e-44616f0de32c",
+    "title": "[BK-258 QA] vulnero cogo abstergo cuius",
+    "atc_id": null,
+    "module": {
+      "id": "e041b629-c466-4177-8ee9-8a1a6c433932",
+      "name": "BK258 Module 1793768486145-n74u0b",
+      "path": "bk258-module-1793768486145-n74u0b",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "e041b629-c466-4177-8ee9-8a1a6c433932",
+    "created_at": "2026-11-04T05:01:26.509134+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "dd9b7345-2e34-4715-a3af-f8907355a619",
+    "updated_at": "2026-11-04T05:01:26.509134+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "4b8dc2c3-6a8b-4845-91df-bc067e1f69aa",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
