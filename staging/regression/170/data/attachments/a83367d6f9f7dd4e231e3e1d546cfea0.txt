@@ -1,0 +1,12 @@
+❌ [BK-336] expectNoShareAffordance - FAIL: expect(locator).toBeVisible() failed
+
+Locator: locator('[data-testid="traceability-export-button"]')
+Expected: visible
+Error: strict mode violation: locator('[data-testid="traceability-export-button"]') resolved to 2 elements:
+    1) <button type="button" aria-busy="false" data-testid="traceability-export-button" class="inline-flex items-center justify-center gap-[6px] whitespace-nowrap rounded-2 font-medium transition-[color,background-color,border-color,transform] duration-token ease-token active:translate-y-px focus-visible:outline-1 focus-visible:outline-offset-1 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-50 bg-accent text-white border border-accent hover:bg-accent-hi hover:border-accent-hi h-[2…>…</button> aka getByRole('button', { name: 'Export snapshot' })
+    2) <button type="button" aria-busy="false" data-testid="traceability-export-button" class="inline-flex items-center justify-center gap-[6px] whitespace-nowrap rounded-2 font-medium transition-[color,background-color,border-color,transform] duration-token ease-token active:translate-y-px focus-visible:outline-1 focus-visible:outline-offset-1 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-50 bg-accent text-white border border-accent hover:bg-accent-hi hover:border-accent-hi h-[2…>…</button> aka getByTestId('traceability-export-button').nth(1)
+
+Call log:
+  - Expect "toBeVisible" with timeout 10000ms
+  - waiting for locator('[data-testid="traceability-export-button"]')
+

@@ -1,0 +1,13 @@
+❌ [BK-450] expectGhostAtcExcluded - FAIL: expect(locator).toHaveCount(expected) failed
+
+Locator:  locator('[data-testid="traceability-chain-view"]').locator('[data-testid^="traceability-ac-"]').first().locator('[data-testid^="traceability-atc-row-"]')
+Expected: 1
+Received: 8
+Timeout:  10000ms
+
+Call log:
+  - Expect "toHaveCount" with timeout 10000ms
+  - waiting for locator('[data-testid="traceability-chain-view"]').locator('[data-testid^="traceability-ac-"]').first().locator('[data-testid^="traceability-atc-row-"]')
+    24 × locator resolved to 8 elements
+       - unexpected value "8"
+

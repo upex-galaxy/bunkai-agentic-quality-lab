@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "d2f942e1-b130-45e0-9d09-f64b1cfd03cd",
+    "title": "[BK-258 QA] creptio cupiditas claro cenaculum",
+    "atc_id": null,
+    "module": {
+      "id": "86e19054-e690-4365-aa31-f655d45ec908",
+      "name": "BK258 Module 1793856142662-urNTIu",
+      "path": "bk258-module-1793856142662-urntiu",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "86e19054-e690-4365-aa31-f655d45ec908",
+    "created_at": "2026-11-05T05:22:23.413504+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "e40aac2c-cdc8-4315-bb95-a3bc12493a57",
+    "updated_at": "2026-11-05T05:22:23.413504+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "81db49e8-8c40-4731-bc06-61abaa8b0413",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

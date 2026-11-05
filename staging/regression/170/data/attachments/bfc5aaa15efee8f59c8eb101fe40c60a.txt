@@ -1,0 +1,12 @@
+❌ [BK-460] expectSharedRunHidesForeignDefect - FAIL: expect(locator).toBeVisible() failed
+
+Locator: locator('[data-testid="traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e"]')
+Expected: visible
+Error: strict mode violation: locator('[data-testid="traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e"]') resolved to 2 elements:
+    1) <div data-status="pass" aria-hidden="false" data-date="2026-08-25" data-module="61bcf340-8ae4-40b4-b6ec-5213b9a88be5" data-testid="traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e" class="grid grid-cols-1 gap-2 px-4 py-3 text-sm md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] md:gap-3">…</div> aka getByRole('main').getByTestId('traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e')
+    2) <div data-status="pass" aria-hidden="false" data-date="2026-08-25" data-module="61bcf340-8ae4-40b4-b6ec-5213b9a88be5" data-testid="traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e" class="grid grid-cols-1 gap-2 px-4 py-3 text-sm md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)] md:gap-3">…</div> aka getByTestId('traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e').nth(1)
+
+Call log:
+  - Expect "toBeVisible" with timeout 10000ms
+  - waiting for locator('[data-testid="traceability-atc-row-8e0d8d3b-eb11-4c46-a72c-b8546f7b835e"]')
+
