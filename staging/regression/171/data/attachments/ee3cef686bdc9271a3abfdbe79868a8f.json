@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "bad_request",
+    "message": "Unrecognised expand value 'bogus'. Allowed: steps, assertions, acceptance_criteria, used_in.",
+    "details": {
+      "reason": "expand_invalid",
+      "value": "bogus"
+    },
+    "request_id": "772ea1bc-6f34-4295-804a-e502cce513a1"
+  }
+}
