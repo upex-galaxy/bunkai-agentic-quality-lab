@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "4482c825-f3d3-4412-9552-bf8158b59f55",
+    "title": "[BK-258 QA] anser carmen delego deripio",
+    "atc_id": null,
+    "module": {
+      "id": "f68a9242-e06b-4e14-b1f3-76d7cea86b6f",
+      "name": "BK258 Module 1793954917520-pOYd9D",
+      "path": "bk258-module-1793954917520-poyd9d",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "f68a9242-e06b-4e14-b1f3-76d7cea86b6f",
+    "created_at": "2026-11-06T08:48:38.014027+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "f19ac696-7bc6-4bce-b935-a20e4c0044d1",
+    "updated_at": "2026-11-06T08:48:38.014027+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

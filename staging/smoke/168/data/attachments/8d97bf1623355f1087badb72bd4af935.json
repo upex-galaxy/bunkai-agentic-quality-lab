@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "ec5af343-423d-41b0-8050-53640c86875b",
+    "title": "[BK-258 QA] artificiose vis conspergo caelestis",
+    "atc_id": null,
+    "module": {
+      "id": "21ae35c3-68bb-46b9-9836-0737cf9dac25",
+      "name": "BK258 Module 1793954904559-DhnxRm",
+      "path": "bk258-module-1793954904559-dhnxrm",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "21ae35c3-68bb-46b9-9836-0737cf9dac25",
+    "created_at": "2026-11-06T08:48:25.036487+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "f19ac696-7bc6-4bce-b935-a20e4c0044d1",
+    "updated_at": "2026-11-06T08:48:25.036487+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
