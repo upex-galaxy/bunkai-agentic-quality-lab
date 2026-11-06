@@ -66,6 +66,14 @@ None.
 
 **Row 2 (nonexistent story ID) is NOT blocked.** It needs no second workspace, no seeded fixture — just a runtime-generated random UUID. It was already manually verified PASS in BK-45 Stage 2 (`evidence/BK-45-tc16-nonexistent-story-notfound.png`): uniform 404 + "User story not found.", zero chain data leak confirmed via network log, reproduced against 3 distinct random UUIDs.
 
+**Re-assessment 2026-10-26 (supersedes the "not constructible" claim above)**: the root blocker has moved. The invite and sign-up endpoints now exist (`/workspaces/{id}/invites`, `/invites/accept`, `/auth/signup`), and a second confirmed staging account was verified to sign in. Row 1 is therefore DEFERRED, not blocked. What it still needs:
+
+- A second identity that is NOT a member of the primary user's workspaces. Sign-up cannot create it at runtime: it emails a 6-digit code, so the account is confirmed once by hand and its credentials live in `STAGING_USER2_EMAIL` / `STAGING_USER2_PASSWORD` (local `.env` and CI secrets).
+- A reusable fixture story owned by that user (Discover-or-Create: one workspace, project, module and story, found by name and created only when absent), then opened under the primary user's OWN project slug. A per-run workspace is rejected: workspaces cannot be deleted and staging already hit the 1000-project cap once.
+- An open question to settle first: whether the app answers a foreign story uniformly. If it does not, that is a product bug, so the row becomes `test.fail('Blocked by <BUG-KEY>')`, never a looser assertion.
+
+Why it is deferred and not done: BK-448 is not an assigned ticket today, and only row 2 is covered. The Jira Test must not be read as full coverage until row 1 lands.
+
 **Decision for this plan**: code row 2 now (unblocked, ROI-positive on its own). Park row 1 as an explicit `test.fixme()` with a comment citing this blocker, ready to un-skip the day Members/invite ships — mirroring how TC-15 and BK-445 are already parked. Do not invent a workaround (DB-level actor spoofing, hardcoded second account) — none is available, and the DB-integration suite (`story-traceability-isolation.test.ts`) already covers the isolation property at that layer; only the live E2E surface (DOM/network non-disclosure at the UI) is genuinely missing, and only for row 1.
 
 ## Acceptance Criteria

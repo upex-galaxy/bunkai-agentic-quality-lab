@@ -23,22 +23,18 @@ test.describe('BK-45: Traceability non-disclosure guard', () => {
     });
   });
 
-  // PARKED — re-confirmed BLOCKED live on 2026-08-25, but for a DIFFERENT
-  // exact reason than originally recorded. `qa3` now owns its own workspace
-  // ("QA Automation Workspace" / bk-45-traceability-fixtures), which made it
-  // seem like a second, foreign workspace finally existed to test against.
-  // It does — but the legacy project that would supply a real foreign story
-  // (`bk-23-test-project`, the OLD workspace's only project) is itself
-  // unreachable to `qa3`: navigating to `/projects/bk-23-test-project` (with
-  // or without a `/traceability?story=` suffix) renders the Next.js
-  // app-shell "404: This page could not be found." BEFORE the traceability
-  // route/component ever mounts — confirmed live, no `workbench-not-found`
-  // or any traceability testid present, only the bare app-shell 404. `qa3`
-  // has exactly one reachable project, so any story ID probed against it is
-  // a same-project mismatch (already covered by the nonexistent-ID case
-  // above), never a genuine cross-workspace case. Un-park once a
-  // second WORKSPACE with a reachable project (not just a reachable
-  // account) exists on staging. See spec.md "Blockers" + BK-50 TC-BK50-09.
+  // PARKED (deferred, not blocked) — the foreign-workspace row needs a story
+  // that lives in a workspace the primary test user is NOT a member of, and
+  // one identity cannot build that: any workspace it creates, it owns.
+  // Re-assessed 2026-10-26: the August blocker (Members "Coming soon") is
+  // gone, and a second confirmed staging account was verified to sign in.
+  // What remains is plain work, not a product gap: declare
+  // STAGING_USER2_EMAIL / STAGING_USER2_PASSWORD, add them as CI secrets,
+  // let user 2 own a reusable fixture story (Discover-or-Create), then open it
+  // under the primary user's own project slug. Sign-up alone cannot do it at
+  // runtime: it emails a 6-digit code, so the account must be confirmed once
+  // by hand. See spec.md "Blockers" for the plan and the open question to
+  // settle first (does the app answer uniformly for a foreign story?).
   test.fixme('BK-448: should return the uniform not-found state for a foreign-workspace story', async ({ ui }) => {
     await ui.traceability.expectNonDisclosureNotFound({
       projectSlug: FIXTURE_PROJECT_SLUG,
