@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "5fdd2d08-b739-4ccc-b929-f6db90c8a3f2",
+    "title": "[BK-258 QA] error combibo studio curis",
+    "atc_id": null,
+    "module": {
+      "id": "82e94aeb-751c-44e9-a6d2-0347874ce58d",
+      "name": "BK258 Module 1794038676634-1jgufP",
+      "path": "bk258-module-1794038676634-1jgufp",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "82e94aeb-751c-44e9-a6d2-0347874ce58d",
+    "created_at": "2026-11-07T08:04:37.274667+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "d865bef7-42dc-4ef9-bcd0-b623963f1e7b",
+    "updated_at": "2026-11-07T08:04:37.274667+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

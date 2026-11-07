@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "68a6b1d9-295f-49a3-bebe-72771deec114",
+    "title": "[BK-258 QA] trans cubitum annus vilis",
+    "atc_id": null,
+    "module": {
+      "id": "d07dc33d-eb31-404e-ad49-0801ff3e4f39",
+      "name": "BK258 Module 1794038692329-23MYxS",
+      "path": "bk258-module-1794038692329-23myxs",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P3",
+    "module_id": "d07dc33d-eb31-404e-ad49-0801ff3e4f39",
+    "created_at": "2026-11-07T08:04:54.435883+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "f0024e70-7b5c-4c3f-9164-589100e8eb6e",
+    "updated_at": "2026-11-07T08:04:54.435883+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
