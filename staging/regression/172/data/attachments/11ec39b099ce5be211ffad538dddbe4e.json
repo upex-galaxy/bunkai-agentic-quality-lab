@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "4a075818-286f-4525-a049-3afd292b908e",
+    "title": "[BK-258 QA] credo canto thesis sumo",
+    "atc_id": null,
+    "module": {
+      "id": "df25c13f-fecd-4c04-ac65-caef7c7a8e89",
+      "name": "BK258 Module 1794027093031-lQUIh8",
+      "path": "bk258-module-1794027093031-lquih8",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "df25c13f-fecd-4c04-ac65-caef7c7a8e89",
+    "created_at": "2026-11-07T04:51:33.864966+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "a057c1a4-396a-4d61-b8d8-6ba7cc1b7780",
+    "updated_at": "2026-11-07T04:51:33.864966+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

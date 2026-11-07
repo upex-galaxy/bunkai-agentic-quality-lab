@@ -1,0 +1,2 @@
+---- API NOK: 400 - https://staging-upexbunkai.vercel.app/api/v1/atcs/11111712d1f849bc96f6799f2b5a57cf
+✅ [BK-1379] expectMalformedAtcIdRejected - PASS (146ms)
