@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "f3f80ef6-bb26-43e0-ad38-ea372c6d4c21",
+    "title": "[BK-258 QA] basium accendo spero aspernatur",
+    "atc_id": null,
+    "module": {
+      "id": "1f3c1715-222b-4117-9022-e1d58b2ccf40",
+      "name": "BK258 Module 1794112943411-AsYmHI",
+      "path": "bk258-module-1794112943411-asymhi",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "1f3c1715-222b-4117-9022-e1d58b2ccf40",
+    "created_at": "2026-11-08T04:42:24.094829+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "f83e881c-9426-4396-81de-2db9fd9b8869",
+    "updated_at": "2026-11-08T04:42:24.094829+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
