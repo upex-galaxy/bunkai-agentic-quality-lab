@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "bd9b0cf8-9110-4b8f-a757-5ecd9bcc41ea",
+    "title": "[BK-258 QA] sequi velociter sortitus aetas",
+    "atc_id": null,
+    "module": {
+      "id": "fe15e204-b255-4ebc-b145-3f3fb4e80b4e",
+      "name": "BK258 Module 1794126218980-sX3skb",
+      "path": "bk258-module-1794126218980-sx3skb",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "fe15e204-b255-4ebc-b145-3f3fb4e80b4e",
+    "created_at": "2026-11-08T08:23:39.489326+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "14562af8-f9d1-4fe4-b756-af388a76dbf4",
+    "updated_at": "2026-11-08T08:23:39.719418+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

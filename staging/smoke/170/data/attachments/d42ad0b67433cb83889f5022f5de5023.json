@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "6b29f126-0c86-4333-a07a-3b929081c05c",
+    "title": "[BK-258 QA] nobis mollitia facere modi",
+    "atc_id": null,
+    "module": {
+      "id": "f5265bbc-eb85-47b7-9d19-9719fe4abedf",
+      "name": "BK258 Module 1794126223310-CpPq6U",
+      "path": "bk258-module-1794126223310-cppq6u",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "f5265bbc-eb85-47b7-9d19-9719fe4abedf",
+    "created_at": "2026-11-08T08:23:43.832897+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "14562af8-f9d1-4fe4-b756-af388a76dbf4",
+    "updated_at": "2026-11-08T08:23:44.292144+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
