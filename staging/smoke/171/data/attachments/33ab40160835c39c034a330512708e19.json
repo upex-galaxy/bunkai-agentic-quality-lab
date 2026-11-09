@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "35a18626-a100-4a70-853a-c63ba2881888",
+    "title": "[BK-258 QA] aeternus strenuus velociter verus",
+    "atc_id": null,
+    "module": {
+      "id": "a506e779-b637-4f56-bedb-ff91f2eb7979",
+      "name": "BK258 Module 1794214493255-OHOs9h",
+      "path": "bk258-module-1794214493255-ohos9h",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "a506e779-b637-4f56-bedb-ff91f2eb7979",
+    "created_at": "2026-11-09T08:54:54.048579+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "dfa5e282-052c-4acf-96b1-f9a99b93d85b",
+    "updated_at": "2026-11-09T08:54:54.422225+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
