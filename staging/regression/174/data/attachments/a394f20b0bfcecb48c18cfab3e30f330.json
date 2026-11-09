@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "64f83b9b-4ccf-48b5-b236-cd87c4d53f96",
+    "title": "[BK-258 QA] nemo corrupti patruus admoneo",
+    "atc_id": null,
+    "module": {
+      "id": "18965c61-c863-402d-86ea-ee3f1ded0b4d",
+      "name": "BK258 Module 1794199991200-EdyH52",
+      "path": "bk258-module-1794199991200-edyh52",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P1",
+    "module_id": "18965c61-c863-402d-86ea-ee3f1ded0b4d",
+    "created_at": "2026-11-09T04:53:11.686987+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "6b44f707-7348-495f-ad70-b47942483b70",
+    "updated_at": "2026-11-09T04:53:11.686987+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "ec83033e-19cd-4e0b-ad79-125253a337f6",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

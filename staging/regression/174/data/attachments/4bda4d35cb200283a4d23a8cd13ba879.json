@@ -1,0 +1,35 @@
+{
+  "atc": {
+    "id": "06391422-2283-4688-995b-74f39f6cb564",
+    "slug": "bk-45-fixtures/atc-de68e227",
+    "tags": [],
+    "layer": "UI",
+    "title": "Render the full traceability chain for a fully covered story",
+    "status": "unrun",
+    "version": 1,
+    "priority": null,
+    "module_id": "61bcf340-8ae4-40b4-b6ec-5213b9a88be5",
+    "technique": null,
+    "created_at": "2026-08-25T14:40:33.959343+00:00",
+    "project_id": "13afde32-7d25-4d31-a4c3-b873c4a156f5",
+    "updated_at": "2026-08-25T14:40:33.959343+00:00",
+    "archived_at": null,
+    "user_story_id": "cb997c18-3b51-45e3-8a16-84d7aa3bd222",
+    "steps": [
+      {
+        "id": "f0fdb530-723e-4915-8017-3ab2587c33a6",
+        "content": "Navigate to a fully covered story's traceability view\nObserve the chain for each Acceptance Criterion",
+        "expected": null,
+        "position": 1,
+        "input_data": null
+      }
+    ],
+    "assertions": [
+      {
+        "id": "840d4189-5ec3-47ef-b9cf-580e9944db96",
+        "content": "chain renders with status active",
+        "position": 1
+      }
+    ]
+  }
+}

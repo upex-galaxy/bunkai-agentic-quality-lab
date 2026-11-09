@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "3afaa4e9-f946-4e3b-aa54-ed62d860d952",
+    "title": "[BK-258 QA] uredo expedita illum beneficium",
+    "atc_id": null,
+    "module": {
+      "id": "fd040b19-86c2-48d1-ad2d-169b38c625a2",
+      "name": "BK258 Module 1794199971794-bkc3AK",
+      "path": "bk258-module-1794199971794-bkc3ak",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "fd040b19-86c2-48d1-ad2d-169b38c625a2",
+    "created_at": "2026-11-09T04:52:52.317263+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "27b073c0-fffb-4d1c-b7d4-d4d34effa724",
+    "updated_at": "2026-11-09T04:52:52.542051+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
