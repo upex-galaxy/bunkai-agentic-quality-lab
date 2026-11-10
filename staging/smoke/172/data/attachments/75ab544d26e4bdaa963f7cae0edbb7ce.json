@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "fd3e6579-9201-4a0c-9605-a52244f854ed",
+    "title": "[BK-258 QA] dens demum excepturi spes",
+    "atc_id": null,
+    "module": {
+      "id": "fde110c5-2e85-45ba-9b0d-bc6483557745",
+      "name": "BK258 Module 1794301320374-399PHY",
+      "path": "bk258-module-1794301320374-399phy",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P4",
+    "module_id": "fde110c5-2e85-45ba-9b0d-bc6483557745",
+    "created_at": "2026-11-10T09:02:01.77496+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "04f7cb8f-ea20-42f1-93a4-1e4c8830072b",
+    "updated_at": "2026-11-10T09:02:01.953617+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
