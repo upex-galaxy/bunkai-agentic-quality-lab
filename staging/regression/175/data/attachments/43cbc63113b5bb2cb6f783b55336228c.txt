@@ -1,0 +1,2 @@
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/atcs/06391422-2283-4688-995b-74f39f6cb564
+✅ [BK-1368] expectLeanAtcRead - PASS (169ms)

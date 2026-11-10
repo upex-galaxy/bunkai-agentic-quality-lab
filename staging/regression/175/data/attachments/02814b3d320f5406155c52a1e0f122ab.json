@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "0018c6ae-6ec7-41d5-92f4-7701a8a95512",
+    "title": "[BK-258 QA] ea cupiditas basium tui",
+    "atc_id": null,
+    "module": {
+      "id": "79f99aa8-5956-4ec3-a4ed-7b32eae85e57",
+      "name": "BK258 Module 1794290842991-8Xyl1f",
+      "path": "bk258-module-1794290842991-8xyl1f",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P4",
+    "module_id": "79f99aa8-5956-4ec3-a4ed-7b32eae85e57",
+    "created_at": "2026-11-10T06:07:23.728707+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "59f1d1f9-d449-4255-9b79-2e8fa8566b7e",
+    "updated_at": "2026-11-10T06:07:23.728707+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "53591bee-e2c8-4756-a7fd-bdf2b1ac9ed4",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
