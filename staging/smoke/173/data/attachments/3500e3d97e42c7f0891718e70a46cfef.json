@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "4c842a14-ae8d-47fe-9c5b-2f5a143135a2",
+    "title": "[BK-258 QA] apud damnatio nobis succurro",
+    "atc_id": null,
+    "module": {
+      "id": "43bd880b-0597-4753-9ac1-60afcec507b6",
+      "name": "BK258 Module 1794386483395-rUuWzy",
+      "path": "bk258-module-1794386483395-ruuwzy",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "43bd880b-0597-4753-9ac1-60afcec507b6",
+    "created_at": "2026-11-11T08:41:24.0435+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "cd4f1f29-1e33-4f6a-9fb4-b10d81599cac",
+    "updated_at": "2026-11-11T08:41:24.391492+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

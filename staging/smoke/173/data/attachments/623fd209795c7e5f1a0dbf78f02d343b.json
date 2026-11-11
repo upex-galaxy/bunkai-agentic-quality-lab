@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "4df1f19b-bfbb-4e4f-aecb-cd829aa22ac4",
+    "title": "[BK-258 QA] calamitas vulgus spiculum sub",
+    "atc_id": null,
+    "module": {
+      "id": "cc87bfde-3c41-47ea-a73d-589438c0316c",
+      "name": "BK258 Module 1794386495800-PtWN6t",
+      "path": "bk258-module-1794386495800-ptwn6t",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P2",
+    "module_id": "cc87bfde-3c41-47ea-a73d-589438c0316c",
+    "created_at": "2026-11-11T08:41:37.247677+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "044a670a-47e6-4f49-a51c-5f1dbe793044",
+    "updated_at": "2026-11-11T08:41:37.57213+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
