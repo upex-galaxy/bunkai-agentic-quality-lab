@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "13ff4681-7034-4b58-b243-590b866de411",
+    "title": "[BK-258 QA] coruscus pauper nihil timor",
+    "atc_id": null,
+    "module": {
+      "id": "50cbf0f7-d572-4651-99df-858454954312",
+      "name": "BK258 Module 1794372905002-qGP0wj",
+      "path": "bk258-module-1794372905002-qgp0wj",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "50cbf0f7-d572-4651-99df-858454954312",
+    "created_at": "2026-11-11T04:55:05.784598+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "27c15d30-2828-4460-a319-93d56f18c68e",
+    "updated_at": "2026-11-11T04:55:06.376522+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

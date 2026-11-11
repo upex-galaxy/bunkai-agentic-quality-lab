@@ -1,0 +1,16 @@
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/f37240ec-a756-478a-bf6f-a56da5d564ea/projects
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/projects/0d9b5c60-520f-4a13-91f6-dad6b2d6428e/modules
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/bugs
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/bugs
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/5e25e2bc-8c2d-4053-b947-8d71f1102455/projects
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/projects/dee1de93-47fc-4cce-ac08-f08585ce5925/modules
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/bugs
+---- API OK: 201 - https://staging-upexbunkai.vercel.app/api/v1/bugs
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/f37240ec-a756-478a-bf6f-a56da5d564ea/open-bugs
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/5e25e2bc-8c2d-4053-b947-8d71f1102455/open-bugs
+✅ [BK-1099] showsOnlyActiveWorkspaceOpenBugs - PASS (175ms)
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/f37240ec-a756-478a-bf6f-a56da5d564ea/open-bugs
+✅ [BK-1099] showsOnlyActiveWorkspaceOpenBugs - PASS (152ms)
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/5e25e2bc-8c2d-4053-b947-8d71f1102455/open-bugs

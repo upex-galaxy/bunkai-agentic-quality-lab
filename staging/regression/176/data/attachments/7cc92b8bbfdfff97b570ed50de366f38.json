@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "fe74c159-312f-4929-bd2f-cd33636e2197",
+    "title": "[BK-258 QA] tergeo adversus aranea totus",
+    "atc_id": null,
+    "module": {
+      "id": "be0f5426-f4d3-423f-aa1a-55483f718a9d",
+      "name": "BK258 Module 1794372882358-hRGw0e",
+      "path": "bk258-module-1794372882358-hrgw0e",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "be0f5426-f4d3-423f-aa1a-55483f718a9d",
+    "created_at": "2026-11-11T04:54:43.381424+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "4d845aa6-8c4f-4bab-aae3-d6dc0a63d9c7",
+    "updated_at": "2026-11-11T04:54:43.381424+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

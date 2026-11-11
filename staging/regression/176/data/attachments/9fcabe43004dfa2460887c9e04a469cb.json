@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "d44d141c-c254-4e73-9de0-4af997fb6213",
+    "title": "[BK-258 QA] ut thymum vere alii",
+    "atc_id": null,
+    "module": {
+      "id": "3a2b2a7a-2ee7-4e84-ad63-0b4136010c8c",
+      "name": "BK258 Module 1794372919658-qNtpEx",
+      "path": "bk258-module-1794372919658-qntpex",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "3a2b2a7a-2ee7-4e84-ad63-0b4136010c8c",
+    "created_at": "2026-11-11T04:55:20.24468+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "dee1de93-47fc-4cce-ac08-f08585ce5925",
+    "updated_at": "2026-11-11T04:55:20.24468+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "5e25e2bc-8c2d-4053-b947-8d71f1102455",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
