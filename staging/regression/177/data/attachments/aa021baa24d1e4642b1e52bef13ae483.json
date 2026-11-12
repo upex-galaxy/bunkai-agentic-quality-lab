@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "bad_request",
+    "message": "ATC id must be a UUID.",
+    "request_id": "c69662c8-09cf-46f2-bf7d-beac4241f2a2"
+  }
+}

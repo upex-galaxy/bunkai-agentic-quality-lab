@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "f426edc4-5a15-4084-a3e5-1c32214706b0",
+    "title": "[BK-258 QA] amplitudo explicabo cura advoco",
+    "atc_id": null,
+    "module": {
+      "id": "2a8a9439-0c06-4c2f-ac7f-f1cf8080d60f",
+      "name": "BK258 Module 1794463031267-nOR1K2",
+      "path": "bk258-module-1794463031267-nor1k2",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "2a8a9439-0c06-4c2f-ac7f-f1cf8080d60f",
+    "created_at": "2026-11-12T05:57:11.684635+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "1c08128a-8905-4d47-afba-5e282ffce99b",
+    "updated_at": "2026-11-12T05:57:11.911364+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

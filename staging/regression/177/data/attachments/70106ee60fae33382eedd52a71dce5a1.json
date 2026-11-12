@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "d6fffa5a-52e0-41f4-908d-e15b6852c555",
+    "title": "[BK-258 QA] adopto trepide tero vinco",
+    "atc_id": null,
+    "module": {
+      "id": "b63ac1d8-738f-4ec2-91ab-25ce0d53e488",
+      "name": "BK258 Module 1794463035052-ixiXmN",
+      "path": "bk258-module-1794463035052-ixixmn",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "in_progress",
+    "severity": "P3",
+    "module_id": "b63ac1d8-738f-4ec2-91ab-25ce0d53e488",
+    "created_at": "2026-11-12T05:57:15.507867+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "1c08128a-8905-4d47-afba-5e282ffce99b",
+    "updated_at": "2026-11-12T05:57:15.694021+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

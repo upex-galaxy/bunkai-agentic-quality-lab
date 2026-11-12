@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "7d012787-659d-4a37-b208-bf2f90d8da54",
+    "title": "[BK-258 QA] virgo terminatio adversus cras",
+    "atc_id": null,
+    "module": {
+      "id": "da9154ba-3ffc-450c-bcea-7be2c61453ca",
+      "name": "BK258 Module 1794463039198-prGWKY",
+      "path": "bk258-module-1794463039198-prgwky",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "open",
+    "severity": "P2",
+    "module_id": "da9154ba-3ffc-450c-bcea-7be2c61453ca",
+    "created_at": "2026-11-12T05:57:19.81349+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "044e833b-d1be-439c-83ef-d8d2c49f01f7",
+    "updated_at": "2026-11-12T05:57:19.81349+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}

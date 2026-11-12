@@ -1,0 +1,4 @@
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/me
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/6fdd4771-e08a-4305-8723-1aec994d568a/open-bugs
+✅ [BK-1096] showsZeroStateWithoutSeverityChips - PASS (115ms)
+---- API OK: 200 - https://staging-upexbunkai.vercel.app/api/v1/workspaces/6fdd4771-e08a-4305-8723-1aec994d568a/open-bugs
