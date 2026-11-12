@@ -1,0 +1,28 @@
+{
+  "bug": {
+    "id": "b87440a6-6026-4d4e-8b2f-8c908a4af6a0",
+    "title": "[BK-258 QA] suppono baiulus comminor umquam",
+    "atc_id": null,
+    "module": {
+      "id": "039876d2-7064-42c6-b308-ad42c7f29d16",
+      "name": "BK258 Module 1794474115306-Vk5gX8",
+      "path": "bk258-module-1794474115306-vk5gx8",
+      "archived_at": null
+    },
+    "origin": null,
+    "run_id": null,
+    "status": "resolved",
+    "severity": "P3",
+    "module_id": "039876d2-7064-42c6-b308-ad42c7f29d16",
+    "created_at": "2026-11-12T09:01:56.167362+00:00",
+    "created_by": "6197e627-8000-4b20-b87d-754a2bc51bcc",
+    "project_id": "37692c27-1b76-489b-8d84-c3c66370b3f7",
+    "updated_at": "2026-11-12T09:01:56.891612+00:00",
+    "description": null,
+    "run_step_id": null,
+    "workspace_id": "a53d640a-23e7-4b74-b728-b32e31204941",
+    "evidence_urls": [],
+    "assignee_user_id": null,
+    "steps_to_reproduce": ""
+  }
+}
