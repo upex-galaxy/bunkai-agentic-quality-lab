@@ -19,6 +19,7 @@ import type { TestContextOptions } from '@TestContext';
 import { HomePage } from '@ui/HomePage';
 import { LoginPage } from '@ui/LoginPage';
 import { ProjectsPage } from '@ui/ProjectsPage';
+import { ProjectTestsPage } from '@ui/ProjectTestsPage';
 import { SnapshotDocumentPage } from '@ui/SnapshotDocumentPage';
 import { TraceabilityPage } from '@ui/TraceabilityPage';
 import { UiBase } from '@ui/UiBase';
@@ -43,6 +44,9 @@ export class UiFixture extends UiBase {
   /** Home page component - BK-258 Open bugs card */
   readonly home: HomePage;
 
+  /** Project Tests list component - BK-666 list, filter, sort and row navigation */
+  readonly projectTests: ProjectTestsPage;
+
   constructor(options: TestContextOptions) {
     super(options);
 
@@ -52,5 +56,6 @@ export class UiFixture extends UiBase {
     this.snapshot = new SnapshotDocumentPage(options);
     this.projects = new ProjectsPage(options);
     this.home = new HomePage(options);
+    this.projectTests = new ProjectTestsPage(options);
   }
 }

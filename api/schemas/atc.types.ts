@@ -3,8 +3,10 @@
  *
  * Types for `GET /api/v1/atcs/{id}` lean and expanded responses.
  *
- * Consumed by: tests/components/api/AtcsApi.ts
+ * Consumed by: tests/components/api/AtcsApi.ts, tests/components/api/TestsApi.ts
  */
+
+import type { paths } from '@openapi';
 
 export type AtcExpansionKey = 'steps' | 'assertions' | 'acceptance_criteria' | 'used_in';
 
@@ -59,3 +61,11 @@ export interface AtcResource {
 export interface AtcGetResponse {
   atc: AtcResource
 }
+
+// ============================================================================
+// Endpoint Types - POST /api/v1/atcs
+// ============================================================================
+
+type CreateAtcPath = paths['/api/v1/atcs']['post'];
+export type CreateAtcPayload = CreateAtcPath['requestBody']['content']['application/json'];
+export type CreateAtcResponse = CreateAtcPath['responses'][201]['content']['application/json'];

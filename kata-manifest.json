@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-11-02T19:03:03.566Z",
+  "generatedAt": "2026-11-13T16:18:56.449Z",
   "components": {
     "api": [
       {
@@ -102,6 +102,12 @@
         "atcs": []
       },
       {
+        "name": "TestsApi",
+        "file": "TestsApi.ts",
+        "relativePath": "tests/components/api/TestsApi.ts",
+        "atcs": []
+      },
+      {
         "name": "TraceabilityApi",
         "file": "TraceabilityApi.ts",
         "relativePath": "tests/components/api/TraceabilityApi.ts",
@@ -158,6 +164,53 @@
         "file": "LoginPage.ts",
         "relativePath": "tests/components/ui/LoginPage.ts",
         "atcs": []
+      },
+      {
+        "name": "ProjectTestsPage",
+        "file": "ProjectTestsPage.ts",
+        "relativePath": "tests/components/ui/ProjectTestsPage.ts",
+        "atcs": [
+          {
+            "id": "BK-1560",
+            "method": "openFromSubNavMarksTestsCurrent",
+            "line": 147
+          },
+          {
+            "id": "BK-1562",
+            "method": "listsOnlyCurrentProjectTests",
+            "line": 170
+          },
+          {
+            "id": "BK-1566",
+            "method": "rowsShowNameChainCountTagsAndCreatedDay",
+            "line": 192
+          },
+          {
+            "id": "BK-1569",
+            "method": "tagFilterNarrowsListAndStatesCount",
+            "line": 226
+          },
+          {
+            "id": "BK-1570",
+            "method": "tagFilterKeepsListProjectScoped",
+            "line": 249
+          },
+          {
+            "id": "BK-1573",
+            "method": "showsNoMatchStateWithClear",
+            "line": 271
+          },
+          {
+            "id": "BK-1574",
+            "method": "sortsByNameAscendingThenReverses",
+            "line": 291
+          },
+          {
+            "id": "BK-1578",
+            "method": "rowOpensTestDetailView",
+            "line": 313
+          }
+        ]
       },
       {
         "name": "ProjectsPage",
@@ -344,10 +397,10 @@
   },
   "steps": [],
   "summary": {
-    "totalComponents": 13,
-    "totalATCs": 50,
-    "apiComponents": 8,
-    "uiComponents": 5,
+    "totalComponents": 15,
+    "totalATCs": 58,
+    "apiComponents": 9,
+    "uiComponents": 6,
     "stepsModules": 0
   }
 }

@@ -14,6 +14,7 @@ export type * from './atc.types';
 export type * from './auth.types';
 export type * from './bug.types';
 export type * from './project.types';
+export type * from './test.types';
 export type * from './traceability.types';
 export type * from './userStory.types';
 export type * from './workspace.types';
